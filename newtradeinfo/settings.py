@@ -91,8 +91,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'trade_web',
         'USER': 'root',
-        'PASSWORD': 'Shengshikeji.1',
-        'HOST': '47.98.164.255',
+        'PASSWORD': 'Shengshikeji@1',
+        'HOST': 'rm-2vc5xhi77ulz46a8nuo.mysql.cn-chengdu.rds.aliyuncs.com',
         'PORT': '3306',
     }
 }
