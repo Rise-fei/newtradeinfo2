@@ -29,9 +29,8 @@ proxies_data2 =  {'http': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4
 proxies_data1 = {'http': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225',
             'https': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225'}
 
-proxies_home = {}
-
 proxies_data = random.choice([proxies_data1, proxies_data2])
+proxies_home = proxies_data
 
 proxies_google_search = {
     'http': 'http://lum-customer-hl_60c2da6c-zone-zone2:tais4r3flqmy@zproxy.lum-superproxy.io:22225',

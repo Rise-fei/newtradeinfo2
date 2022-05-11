@@ -39,22 +39,15 @@ https://www.exportersindia.com/search.php?srch_catg_ty=prod&term=led&cont=IN&pag
 印度尼西亚：ID
 东帝汶：TL
 '''
-proxies_data1 = {'http': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225'}
-proxies_data2 = {'http': 'http://lum-customer-c_0ba1644e-zone-dongnanya:01z2e4at7eps@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-dongnanya:01z2e4at7eps@zproxy.lum-superproxy.io:22225'}
 
-proxies_home = {
-    'http': 'http://lum-customer-sstrade-zone-residential-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-sstrade-zone-residential-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225'
-}
+proxies_data2 =  {'http': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225'}
 
-proxies_data = random.choice([proxies_data1,proxies_data2])
+proxies_data1 = {'http': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225'}
 
-proxies_google_search = {
-    'http': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225'
-}
+proxies_data = random.choice([proxies_data1, proxies_data2])
+proxies_home = proxies_data
 # proxies_home = {
 # }
 #
@@ -224,7 +217,7 @@ def export_india_spider(keyword, pageno, cont):
         "User-Agent": random.choice(user_agent_li),
     }
 
-    ret = requests.get(url, headers=total_headers, proxies=proxies_home)
+    ret = requests.get(url, headers=total_headers, proxies=proxies_data)
     e = etree.HTML(ret.text)
     total_count = e.xpath('//span[@class="large"]/text()')[0] if e.xpath('//span[@class="large"]/text()') else 0
     item_list = e.xpath(
