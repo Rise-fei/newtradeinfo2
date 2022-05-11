@@ -8,22 +8,21 @@ headers = {
 headers = {
     "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36",
 }
+proxies_data2 =  {'http': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225'}
+
+proxies_data1 = {'http': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225'}
+
+
+
 proxies_google_search = {
-    'http': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225'
+    'http': 'http://lum-customer-hl_60c2da6c-zone-zone2:tais4r3flqmy@zproxy.lum-superproxy.io:22225',
+    'https': 'http://lum-customer-hl_60c2da6c-zone-zone2:tais4r3flqmy@zproxy.lum-superproxy.io:22225'
 }
-proxies_home = {
-    'http': 'http://lum-customer-sstrade-zone-residential-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-sstrade-zone-residential-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225'
-}
-proxies = proxies_home
-proxies = {'http': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225'}
 url = "http://www.google.com/search?q={}".format("sofa")
-#url = "http://lumtest.com/myip.json"
 print(url)
-proxies = {}
-proxies = proxies_home
+proxies = proxies_data1
 #response = requests.get(url, headers=headers,proxies=proxies_google_search)
 response = requests.get(url, headers=headers,proxies=proxies)
 print(response.content)
