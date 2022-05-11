@@ -23,32 +23,21 @@ def hasCN(string: str):
     """
     return re.compile(u'[\u4e00-\u9fa5]').search(string)
 
-proxies_data1 = {'http': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone1:3h2xatfe2ks1@zproxy.lum-superproxy.io:22225'}
-proxies_data2 = {'http': 'http://lum-customer-c_0ba1644e-zone-dongnanya:01z2e4at7eps@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-dongnanya:01z2e4at7eps@zproxy.lum-superproxy.io:22225'}
+proxies_data2 =  {'http': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-data_center:fms4eky4mb70@zproxy.lum-superproxy.io:22225'}
 
-proxies_data3 = {'http': 'http://lum-customer-c_0ba1644e-zone-zone7:7vvlqbyp5qt6@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone7:7vvlqbyp5qt6@zproxy.lum-superproxy.io:22225'}
-proxies_data4 = {'http': 'http://lum-customer-c_0ba1644e-zone-zone4:y0861p9dbui2@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone4:y0861p9dbui2@zproxy.lum-superproxy.io:22225'}
-proxies_data5 =  {'http': 'http://lum-customer-c_0ba1644e-zone-zone5:ljy1g5sxusnv@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone5:ljy1g5sxusnv@zproxy.lum-superproxy.io:22225'}
-proxies_data6 = {'http': 'http://lum-customer-c_0ba1644e-zone-zone6:sp37yjczy7wt@zproxy.lum-superproxy.io:22225',
-            'https': 'http://lum-customer-c_0ba1644e-zone-zone6:sp37yjczy7wt@zproxy.lum-superproxy.io:22225'}
+proxies_data1 = {'http': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225',
+            'https': 'http://lum-customer-hl_60c2da6c-zone-zone1:qx6l05p8ekj5@zproxy.lum-superproxy.io:22225'}
 
+proxies_home = {}
 
-proxies_home = {
-    'http': 'http://lum-customer-sstrade-zone-residen   tial-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-sstrade-zone-residential-country-us:Shengshikeji666@zproxy.lum-superproxy.io:22225'
-}
-
-proxies_data = random.choice([proxies_data1,proxies_data2,proxies_data3,proxies_data4,proxies_data5,proxies_data6])
+proxies_data = random.choice([proxies_data1, proxies_data2])
 
 proxies_google_search = {
-    'http': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225',
-    'https': 'http://lum-customer-c_0ba1644e-zone-zone2:rhiixqunrysr@zproxy.lum-superproxy.io:22225'
+    'http': 'http://lum-customer-hl_60c2da6c-zone-zone2:tais4r3flqmy@zproxy.lum-superproxy.io:22225',
+    'https': 'http://lum-customer-hl_60c2da6c-zone-zone2:tais4r3flqmy@zproxy.lum-superproxy.io:22225'
 }
+
 proxy_list = [proxies_home, proxies_home, proxies_google_search]
 total_headers = {
 
@@ -982,8 +971,7 @@ def googleinfo(kw, kwid, pagenum):
 
 
 def google_spider(url):
-    pro_list = [(proxies_data1, '数据中心1'), (proxies_data2, '数据中心2'), (proxies_data3, '数据中心3'),
-                (proxies_data4, '数据中心4'), (proxies_data5, '数据中心5'), (proxies_data6, '数据中心6')]
+    pro_list = [(proxies_data1, '数据中心1'), (proxies_data2, '数据中心2')]
     proo_list = random.choices(pro_list, k=2)
     proxy_list = proo_list + [
         (proxies_home, "动态住宅"), (proxies_google_search, "搜索引擎"), ({}, '无')]
@@ -1497,8 +1485,7 @@ def googlemail(kw):
         # proxies = random.choice(proxy_list)
         # resp = r.get(searchurl, proxies=proxies_google_search)
 
-        pro_list = [(proxies_data1, '数据中心1'), (proxies_data2, '数据中心2'), (proxies_data3, '数据中心3'),
-                    (proxies_data4, '数据中心4'), (proxies_data5, '数据中心5'), (proxies_data6, '数据中心6')]
+        pro_list = [(proxies_data1, '数据中心1'), (proxies_data2, '数据中心2')]
         proo_list = random.choices(pro_list,k=2)
         proxy_list = proo_list + [
                       (proxies_home, "动态住宅"), (proxies_google_search, "搜索引擎"), ({}, '无')]

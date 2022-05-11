@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newtradeinfo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newtradeinfo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettrademail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gettrademail/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,14 +192,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="newtradeinfo.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Administrator\Desktop\newtrade_env\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8080" />
-      <option name="host" value="" />
+      <option name="port" value="6789" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -290,7 +290,8 @@
       <workItem from="1610358257517" duration="1263000" />
       <workItem from="1610613736960" duration="6264000" />
       <workItem from="1610672719133" duration="6868000" />
-      <workItem from="1652239030149" duration="587000" />
+      <workItem from="1652239030149" duration="1777000" />
+      <workItem from="1652255515160" duration="1404000" />
     </task>
     <servers />
   </component>
