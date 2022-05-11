@@ -18,15 +18,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TxeXFgyCHmSyFRQ9i134gXZRCX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -217,6 +221,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -279,73 +284,23 @@
       <workItem from="1610358257517" duration="1263000" />
       <workItem from="1610613736960" duration="6264000" />
       <workItem from="1610672719133" duration="6868000" />
+      <workItem from="1652239030149" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608002563132">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1608002563132" />
-    <state x="711" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609812793298">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="711" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609812793298" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606785985015">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1606785985015" />
-    <state width="1877" height="485" key="GridCell.Tab.0.bottom" timestamp="1610697567709">
-      <screen x="1920" y="-65" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
-    <state width="1877" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
-    <state width="1877" height="485" key="GridCell.Tab.0.center" timestamp="1610697567709">
-      <screen x="1920" y="-65" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
-    <state width="1877" height="485" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
-    <state width="1877" height="485" key="GridCell.Tab.0.left" timestamp="1610697567709">
-      <screen x="1920" y="-65" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
-    <state width="1877" height="485" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
-    <state width="1877" height="485" key="GridCell.Tab.0.right" timestamp="1610697567709">
-      <screen x="1920" y="-65" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
-    <state width="1877" height="485" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1609236313828">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403745" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1609236313828">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403744" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1609236313828">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403744" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1609236313828">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403745" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1606785774725">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1606785774725" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608862428006">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1608862428006" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,16 +314,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/newtradeinfo$ExportIndia__1_.coverage" NAME="ExportIndia (1) Coverage Results" MODIFIED="1608884475682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$demo.coverage" NAME="demo Coverage Results" MODIFIED="1609145482204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1608796568931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/newtradeinfo$views.coverage" NAME="views Coverage Results" MODIFIED="1606726387228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gettrademail" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$test.coverage" NAME="test Coverage Results" MODIFIED="1609146932430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$test_face_twitter.coverage" NAME="test_face_twitter Coverage Results" MODIFIED="1609227859407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1609828124726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$googlemap.coverage" NAME="googlemap Coverage Results" MODIFIED="1608862133333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/newtradeinfo$test3__1_.coverage" NAME="test3 (1) Coverage Results" MODIFIED="1610696774031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/newtradeinfo$indiaprofile.coverage" NAME="indiaprofile Coverage Results" MODIFIED="1608800339691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1608796568931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/newtradeinfo$googlemap.coverage" NAME="googlemap Coverage Results" MODIFIED="1608862133333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1609828124726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test.coverage" NAME="test Coverage Results" MODIFIED="1609146932430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/newtradeinfo$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1609819075110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gettrademail" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$ExportIndia__1_.coverage" NAME="ExportIndia (1) Coverage Results" MODIFIED="1608884475682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$demo.coverage" NAME="demo Coverage Results" MODIFIED="1609145482204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test_face_twitter.coverage" NAME="test_face_twitter Coverage Results" MODIFIED="1609227859407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
