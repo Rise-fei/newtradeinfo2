@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+</head>
+<body>
+<table>
+    {% for ore in res %}
+        <tr>
+            <td>{{ ore.title }}</td>
+            <td>{{ ore.website }}</td>
+            <td>{{ ore.description }}</td>
+            <td>{{ ore.mail }}</td>
+            <td>{{ ore.remark1 }}</td>
+            <td>{{ ore.remark2 }}</td>
+            <td>{{ ore.remark3 }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

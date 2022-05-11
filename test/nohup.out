@@ -1,0 +1,1019 @@
+                                                Watching for file changes with StatReloader
+[30/Nov/2020 15:43:25] "GET /index/ HTTP/1.1" 200 408
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2020 - 15:43:25
+Django version 2.2.3, using settings 'newtradeinfo.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/Nov/2020 15:44:59] "GET /index/ HTTP/1.1" 200 408
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 3!
+[30/Nov/2020 15:45:06] "GET /getmail/?website=https://www.pr-inside.com/global-polypropylene-monofilament-filter-cloth-mar-r4786012.htm&amp;sa=U&amp;ved=2ahUKEwjKofn56orpAhUCgXIEHUd_D5s4HhAWMAh6BAgEEAE&amp;usg=AOvVaw02ziKhZB0920-e7Phl0cxh HTTP/1.1" 200 18
+[30/Nov/2020 15:45:08] "GET /getmail/?website=https://www.onthemarket.com/&amp;sa=U&amp;ved=2ahUKEwjCiZHd4KntAhUkGaYKHfmvC_Q4FBAWMAN6BAgHEAE&amp;usg=AOvVaw37abw2reFpMg5zflR1AtkR HTTP/1.1" 500 73832
+[30/Nov/2020 15:45:18] "GET /index/ HTTP/1.1" 200 408
+[30/Nov/2020 15:45:19] "GET /index/ HTTP/1.1" 200 408
+[30/Nov/2020 15:45:20] "GET /index/ HTTP/1.1" 200 408
+[30/Nov/2020 15:45:33] "GET /getmail/?website=http://greenetool.com/troubleshooting-carbide-cutting-tools/deep-hole-drilling-with-carbide-cutting-tools/ HTTP/1.1" 200 4
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+[30/Nov/2020 15:45:36] "GET /getmail/?website=http://ftus.riabilitazionesportestremi.it/pulling-white-thread-out-of-skin.html&amp;sa=U&amp;ved=2ahUKEwidxaHGxd7qAhWQGaYKHfptCyg4ggEQFjAJegQIBBAB&amp;usg=AOvVaw24CsJoJICOTi0cdC4Mtw0t HTTP/1.1" 200 4
+[30/Nov/2020 15:45:38] "GET /getmail/?website=https://www.questionsanswered.net/article/how-find-rvs-sale?ad=dirN&amp;qo=serpIndex&amp;o=740012 HTTP/1.1" 500 73491
+[30/Nov/2020 15:46:35] "GET /getweb?engine=google&kw=rubber%20%20hose&num=30 HTTP/1.1" 301 0
+[30/Nov/2020 15:46:42] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=30 HTTP/1.1" 200 145
+[30/Nov/2020 15:46:47] "GET /getmail/?website=https://www.zoopla.co.uk/find-agents/ HTTP/1.1" 200 4
+[30/Nov/2020 15:46:47] "POST /tradeinfo/ HTTP/1.1" 200 318793
+[30/Nov/2020 15:46:58] "GET /getweb?engine=google&kw=Yarn-dyed%20home%20textile%20products&num=0 HTTP/1.1" 301 0
+[30/Nov/2020 15:47:04] "GET /getweb/?engine=google&kw=Yarn-dyed%20home%20textile%20products&num=0 HTTP/1.1" 200 28975
+[30/Nov/2020 15:47:07] "GET /getmail/?website=https://www.purplebricks.co.uk/&amp;sa=U&amp;ved=2ahUKEwjCiZHd4KntAhUkGaYKHfmvC_Q4FBAWMAB6BAgBEAE&amp;usg=AOvVaw3ZSqROHwT75pAzEdCT68lF HTTP/1.1" 200 4
+[30/Nov/2020 15:47:18] "GET /getmail/?website=https://www.springer.com/gp/book/9781461585459&amp;sa=U&amp;ved=2ahUKEwiLv6v4rv_sAhVlF6YKHTU8DDM4PBAWMAJ6BAgIEAE&amp;usg=AOvVaw1ZZ1nj4CNh5CtZ_tICN3Eu HTTP/1.1" 200 83
+[30/Nov/2020 15:47:36] "GET /getmail/?website=http://dqnd.campionatoitalianocostruttori.it/dabs-taste-like-plastic.html&amp;sa=U&amp;ved=2ahUKEwjWic7gt4HqAhU4y4sBHRk-C6k4oAEQFjAAegQIABAB&amp;usg=AOvVaw3pXH8vmS0aghSyPDu7u9BE HTTP/1.1" 200 4
+[30/Nov/2020 15:47:41] "GET /getweb?engine=google&kw=Yarn-dyed%20home%20textile%20products&num=1 HTTP/1.1" 301 0
+[30/Nov/2020 15:47:50] "GET /getweb/?engine=google&kw=Yarn-dyed%20home%20textile%20products&num=1 HTTP/1.1" 200 4280
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+[30/Nov/2020 15:48:15] "GET /getmail/?website=https://themortgagereports.com/37898/how-much-do-real-estate-agents-make-from-my-home-purchase-and-who-pays HTTP/1.1" 200 4
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+[30/Nov/2020 15:48:32] "GET /getweb?engine=google&kw=facemask%20kn95&num=11 HTTP/1.1" 301 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2020 - 15:44:57
+Django version 2.2.3, using settings 'newtradeinfo.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+https://www.onthemarket.com/
+++++++++++
+https://www.pr-inside.com/global-polypropylene-monofilament-filter-cloth-mar-r4786012.htm
+++++++++++
+http://greenetool.com/troubleshooting-carbide-cutting-tools/deep-hole-drilling-with-carbide-cutting-tools/
+++++++++++
+https://www.questionsanswered.net/article/how-find-rvs-sale?ad=dirN
+++++++++++
+http://ftus.riabilitazionesportestremi.it/pulling-white-thread-out-of-skin.html
+++++++++++
+0
+10
+20
+0
+[]
+0
+10
+20
+0
+[]
+https://rbigeofoundation.wordpress.com/2014/10/27/cost-of-a-borewell-step-by-step-guide-complete-details/
+++++++++++
+0
+10
+20
+0
+[]
+sofa 0
+rubber  hose 30
+https://www.zoopla.co.uk/find-agents/
+++++++++++
+https://www.google.com/search?q=rubber%20%20hose&start=290
+0 []
+********************************
+[]
+********************************
+运行时间: 5.433347702026367
+0
+10
+20
+0
+[]
+Yarn-dyed home textile products 0
+https://www.purplebricks.co.uk/
+++++++++++
+0
+10
+20
+0
+[]
+https://www.springer.com/gp/book/9781461585459
+++++++++++
+0
+10
+20
+12
+[('customerservice@springernature.com', 1), ('shreeve@springernature.com', 1), ('info@springeropen.com', 1), ('ASCO@springer.com', 1), ('ebulk@springer.com', 1), ('AACRreprints@springer.com', 1), ('permissions@bmj.com', 1), ('sales@springerpub.com', 1), ('journals-ny@springer.com', 1), ('aas@mail.iap', 1), ('leserservice@springer.com', 1), ('secitc@gmail.com', 1)]
+http://dqnd.campionatoitalianocostruttori.it/dabs-taste-like-plastic.html
+++++++++++
+0
+10
+20
+0
+[]
+Yarn-dyed home textile products 1
+https://www.google.com/search?q=Yarn-dyed%20home%20textile%20products&start=0
+9 [<Element div at 0x7f72ed4486e0>, <Element div at 0x7f72f0252c80>, <Element div at 0x7f72de772870>, <Element div at 0x7f72ec2e3730>, <Element div at 0x7f72ed3bad20>, <Element div at 0x7f72ed3baf50>, <Element div at 0x7f72de74ac80>, <Element div at 0x7f72de785820>, <Element div at 0x7f72de785910>]
+https://www.amazon.com/Home-Textile-Yarn-dyed-Cotton-HYDRANGEA/dp/B01AYO8ZAS
+pass!!!!
+https://www.fabric.com/apparel-fashion-fabric-shirting-fabric-yarn-dyed-fabric.aspx
+https://www.fabricworm.com/yarndyed.html
+https://www.fibre2fashion.com/yarns/cotton-yarn-buyers-1485384
+https://www.cottoneerfabrics.com/why-yarn-dyed-fabrics-are-our-fave/
+https://stonemountainfabric.com/type-of-fabric/yarn-dyed/
+https://www.houzz.com/products/yue-home-textile-yarn-dyed-linen-cotton-duvet-cover-set-dune-king-prvw-vr~72605746
+https://cen.acs.org/business/consumer-products/new-textile-dyeing-methods-make/96/i29?PageSpeed=noscript
+https://www.made-in-china.com/products-search/hot-china-products/Linen_Cotton_Yarn_Dyed_Fabric.html
+********************************
+[{'title': '548 items in Yarn Dyed Fabric - Fabric.com', 'website': 'https://www.fabric.com/apparel-fashion-fabric-shirting-fabric-yarn-dyed-fabric.aspx', 'description': 'Fabric.com offers discount designer fabric to meet all your apparel, quilting, and home decorating needs. Fabric.com offers a huge selection of silk fabrics, vinyl\xa0...', 'mail': None}, {'title': 'Fabricworm Yarn Dyed Fabrics', 'website': 'https://www.fabricworm.com/yarndyed.html', 'description': 'Items 1 - 120 of 214 — Fabricworm Yarn Dyed Fabrics, Fabricworm brings you the latest in modern fabrics, quilting and garment ... We also import special yarn dyed woven cottons for quilting and home decor. ... Displaying 1 to 120 (of 214 items).', 'mail': None}, {'title': 'Cotton Yarn : Dyed, For home textile products, Ne 20, 40 ...', 'website': 'https://www.fibre2fashion.com/yarns/cotton-yarn-buyers-1485384', 'description': 'Explore and discover high quality Cotton Yarn : Dyed, For home textile products, Ne 20, 40 double, 100% Cotton Buyers importers, exporters and dealers in\xa0...', 'mail': None}, {'title': 'Why Yarn Dyed Fabrics Are Our Fave | Cottoneer Fabrics', 'website': 'https://www.cottoneerfabrics.com/why-yarn-dyed-fabrics-are-our-fave/', 'description': '2019年8月21日 — First you must know that yarn dyed fabrics can be pretty easy to spot unless ... If you are a fan of the beautiful home decor trends that are sort of a ... Just make sure to read the titles of our product listings to know which one you\xa0...', 'mail': None}, {'title': 'Yarn Dyed - Stonemountain & Daughter Fabrics', 'website': 'https://stonemountainfabric.com/type-of-fabric/yarn-dyed/', 'description': 'Search. Home / Product Type of Fabric / Yarn Dyed ... Yarn Dyed Basketweave Linen – Espresso ... Birch Fabrics – Organic Yarn Dyed Linen – Solid Cheeky.', 'mail': None}, {'title': 'Yue Home Textile Yarn-Dyed Linen Cotton Duvet Cover Set ...', 'website': 'https://www.houzz.com/products/yue-home-textile-yarn-dyed-linen-cotton-duvet-cover-set-dune-king-prvw-vr~72605746', 'description': 'Buy the Yue home textile yarn-dyed linen cotton duvet cover set, dune, king online from Houzz today, or shop for ... Get user reviews on all Bedroom products.', 'mail': 'tatarko@houzz.com;first@houzz.com;adi@houzz.com'}, {'title': 'These new textile dyeing methods could make fashion more ...', 'website': 'https://cen.acs.org/business/consumer-products/new-textile-dyeing-methods-make/96/i29?PageSpeed=noscript', 'description': "2018年7月15日 — The industry's sheer scale makes it hard to have an impact: Textiles are ... To ensure colorfastness, dyed fabric or yarn is washed over and over\xa0...", 'mail': None}, {'title': 'Linen Cotton Yarn Dyed Fabric manufacturers & wholesalers', 'website': 'https://www.made-in-china.com/products-search/hot-china-products/Linen_Cotton_Yarn_Dyed_Fabric.html', 'description': '4348 products — China Linen Cotton Yarn Dyed Fabric wholesale - Select 2020 high quality ... 18-220GSM; Width: 53/54"; Usage: Home Textile, Garment, Industry\xa0...', 'mail': 'com-desktop@2x.158471;depass@startribune.com'}]
+********************************
+运行时间: 8.176918745040894
+https://themortgagereports.com/37898/how-much-do-real-estate-agents-make-from-my-home-purchase-and-who-pays
+++++++++++
+https://www.bbc.com/future/article/20190503-the-deepest-hole-we-have-ever-dug
+++++++++++
+https://www.bbc.com/future/article/20190503-the-deepest-hole-we-have-ever-dug
+++++++++++
+0
+10
+20
+0
+[]
+https://www.rightmove.co.uk/estate-agents.html
+++++++++++
+facemask kn95 11
+https://www.google.com/search?q=facemask%20kn95&start=100
+10 [<Element div at 0x7f72de7aed70>, <Element div at 0x7f72de7ae730>, <Element div at 0x7f72de7aeeb0>, <Element div at 0x7f72de7ae050>, <Element div at 0x7f72f0252c80>, <Element div at 0x7f72de715500>, <Element div at 0x7f72de715960>, <Element div at 0x7f72de715280>, <Element div at 0x7f72de715f50>, <Element div at 0x7f72de73e230>]
+https://www.sifsof.com/product/500-units-of-kn95-masks-3m-9502-respirator-face-mask/
+https://phoenix820.com/ProductResults/?referrerPage=Home&refPgId=522866373&SearchTerms=KN95+Face+Mask&PCUrl=1
+https://www.engineersupply.com/KN95-Disposable-Face-Mask-Pack-of-5.aspx
+https://www.testextextile.com/product/n95-masks-alternative-kn95-masks-for-anti-virus-protection/
+https://www.snoblife.com/products/kn95-face-mask
+http://www.advantagepromotionsnj.com/ProductResults/?referrerPage=Home&refPgId=501707884&SearchTerms=KN95+Face+Mask&PCUrl=1
+https://www.yahoo.com/lifestyle/kn95-masks-roundup-powecom-180609493.html
+https://www.lungsal.com/KN95.html
+https://www.mybinding.com/kn95-disposable-face-masks-flat-white-folding-respirator-masks.html
+https://www.hubert.com/product/70565/KN95-White-Disposable-Face-Mask
+********************************
+[{'title': '500 units of KN95 Masks - 3M 9502+ Respirator Face Mask ...', 'website': 'https://www.sifsof.com/product/500-units-of-kn95-masks-3m-9502-respirator-face-mask/', 'description': '500 units of KN95 Masks - 3M 9502+ Respirator Face Mask. High-efficiency electrostatic filter cotton reduces expiatory resistance..', 'mail': 'csifsof@bbnc.net;mdv@meditech.com;ljohnson@bbna.com'}, {'title': 'KN95 Face Mask - Product Results - Promotional Products ...', 'website': 'https://phoenix820.com/ProductResults/?referrerPage=Home&refPgId=522866373&SearchTerms=KN95+Face+Mask&PCUrl=1', 'description': 'Stay safe and healthy by donning one of our KN95 face masks! Measuring 6" x 4", each white adult face mask features 5 layers of protection and is designed for\xa0...', 'mail': None}, {'title': 'KN95 Protective Face Mask Dycrol Brand - 12 Individually ...', 'website': 'https://www.engineersupply.com/KN95-Disposable-Face-Mask-Pack-of-5.aspx', 'description': 'Many Localities Now Require Face Masks! Our KN95 Disposable Face Mask offers 5 layers of protection. They contain breathable properties, are skin-friendly\xa0...', 'mail': 'customerservice@engineersupply.com'}, {'title': 'N95 Masks Alternative KN95 Mask for Anti-virus Protection', 'website': 'https://www.testextextile.com/product/n95-masks-alternative-kn95-masks-for-anti-virus-protection/', 'description': 'The KN95 face mask is made under the Chinese standard GB 2626-2006, which has been proved to be similar filtration efficiency as N95 and FFP2 respirators.', 'mail': None}, {'title': 'KN95 Face Mask | Snob Life', 'website': 'https://www.snoblife.com/products/kn95-face-mask', 'description': 'KN95 face masks are disposable. FDA Cleared Class 1, European Standard FFP2 CE EN 149:2001+A1:2009, and Chinese Standard KN95 GB2626-2006.', 'mail': 'info@snoblife.com;abuse@godaddy.com;IAmMingLee@SnobLife.com'}, {'title': 'KN95 Face Mask - Product Results - ADVANTAGE ...', 'website': 'http://www.advantagepromotionsnj.com/ProductResults/?referrerPage=Home&refPgId=501707884&SearchTerms=KN95+Face+Mask&PCUrl=1', 'description': 'KN95 face mask. Foldable 5 layer, one size fits all KN95 face masks. Filters 95% of all airborne particles. Made with non-woven polypropylene fabric with melt\xa0...', 'mail': 'john@advantagepromotionsnj.com;tami@advantagepromotionsnj.com;sales@riversadv.com'}, {'title': 'These FDA-approved KN95 masks are on sale for just $2 a ...', 'website': 'https://www.yahoo.com/lifestyle/kn95-masks-roundup-powecom-180609493.html', 'description': "5 天前 — Now we know to leave them for the pros—and that's why buying KN95 masks is the smart move. The particular KN95 mask we're talking about—\xa0...", 'mail': 'support@verizonmedia.com'}, {'title': 'Medical Supplies & PPE :: KN95 Face Mask - Lungsal', 'website': 'https://www.lungsal.com/KN95.html', 'description': 'Info & Pricing; Specification. • Foldable 5 layer one size fits all KN95 face mask • Filters 95% of all airborne particles • Made with two layers of non-woven fabric,\xa0...', 'mail': 'Lungsal@Lungsal.com;lungsal@lungsal.com;howatt-lambert@leonardo.com'}, {'title': 'KN95 Disposable Face Masks (Flat White Folding Respirator ...', 'website': 'https://www.mybinding.com/kn95-disposable-face-masks-flat-white-folding-respirator-masks.html', 'description': 'The KN95 Disposable Face Mask blocks up to 95% of particles 0.3 microns and larger, drastically reducing air pollution and airborne particulate inhalation as\xa0...', 'mail': 'service@mybinding.com;last@mybinding.com;CLAMBERT@CSA.CANON'}, {'title': 'KN95 White Disposable Face Mask - HUBERT.com', 'website': 'https://www.hubert.com/product/70565/KN95-White-Disposable-Face-Mask', 'description': '95% filter performance One pack of 10 masks Form fitting over nose This respirator face mask provides N95 equivalent filtering protection. The form fitting mask\xa0...', 'mail': 'last@hubert.com;Havel27sm@gmail.com;contact@fidacity.com'}][30/Nov/2020 15:48:39] "GET /getweb/?engine=google&kw=facemask%20kn95&num=11 HTTP/1.1" 200 5386
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 3!
+[30/Nov/2020 15:49:26] "GET /getmail/?website=https://www.krishnaborewell.com/blog/how-to-increase-water-yield-in-borewell/ HTTP/1.1" 200 74
+[30/Nov/2020 15:49:30] "GET /getmail/?website=https://www.thebalance.com/listing-agent-vs-selling-agent-1798878 HTTP/1.1" 200 4
+[30/Nov/2020 15:49:47] "GET /getmail/?website=http://www.premeuropa.com/woven-fabrics-products.html&amp;sa=U&amp;ved=2ahUKEwjN17O96NzqAhUYfXAKHchHCeI4ChAWMAF6BAgHEAE&amp;usg=AOvVaw1kAyj4FBM6iW6XpCc9kO6C HTTP/1.1" 200 59
+[30/Nov/2020 15:49:50] "GET /getweb?engine=google&kw=rubber%20%20hose&num=31 HTTP/1.1" 301 0
+[30/Nov/2020 15:49:55] "GET /getmail/?website=http://home.iitk.ac.in/~vkjain/CV_vkjain_05-01-16.pdf&amp;sa=U&amp;ved=2ahUKEwiapvPVsv_sAhUjCqYKHdmjAH04qgEQFjABegQICBAB&amp;usg=AOvVaw0_cC4d8t_yEAcDVzISSrUW HTTP/1.1" 200 4
+[30/Nov/2020 15:49:58] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=31 HTTP/1.1" 200 145
+[30/Nov/2020 15:50:02] "GET /getmail/?website=https://www.idealagent.com/ HTTP/1.1" 200 60
+[30/Nov/2020 15:50:21] "GET /getmail/?website=https://www.sanfoundry.com/machine-tools-questions-answers-deep-hole-drilling-machine/&amp;sa=U&amp;ved=2ahUKEwjdwrqir__sAhUGrpQKHceUCr04RhAWMAR6BAgAEAE&amp;usg=AOvVaw1T01fnbjNsdhOIH68tiJmF HTTP/1.1" 200 4
+[30/Nov/2020 15:50:28] "GET /getmail/?website=https://finance.zacks.com/much-should-pay-buyers-agent-selling-home-yourself-2869.html HTTP/1.1" 200 4
+[30/Nov/2020 15:51:20] "GET /getmail/?website=https://smallbusiness.chron.com/definition-commission-agent-12918.html&amp;sa=U&amp;ved=2ahUKEwjf8bny4KntAhW1NKYKHaF4B0E4HhAWMAB6BAgBEAE&amp;usg=AOvVaw1_aFbBZlx_fP-6CT2lIk-v HTTP/1.1" 200 4
+[30/Nov/2020 15:51:20] "GET /getmail/?website=https://nintendo-news.de/s86st/goxl681ev1up5pldx2pyhdpuz3.html&amp;sa=U&amp;ved=2ahUKEwic3p6vg6jsAhURKaYKHWTACr44PBAWMAF6BAgHEAE&amp;usg=AOvVaw2bRFBbPMuB3F7QX7Gj4owO HTTP/1.1" 200 4
+[30/Nov/2020 15:51:42] "GET /getmail/?website=https://kaplblr.com/manufacturing-plant.html HTTP/1.1" 200 61
+[30/Nov/2020 15:51:51] "GET /getmail/?website=https://themortgagereports.com/37898/how-much-do-real-estate-agents-make-from-my-home-purchase-and-who-pays HTTP/1.1" 200 4
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+[30/Nov/2020 15:52:27] "GET /getmail/?website=https://finance.zacks.com/much-should-pay-buyers-agent-selling-home-yourself-2869.html HTTP/1.1" 200 4
+[30/Nov/2020 15:52:29] "GET /getweb?engine=google&kw=facemask%20kn95&num=12 HTTP/1.1" 301 0
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+----------------------------------------
+Exception happened during processing of request from ('117.86.16.132', 45302)
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/python3/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[30/Nov/2020 15:52:53] "GET /getweb/?engine=google&kw=facemask%20kn95&num=12 HTTP/1.1" 200 4996
+[30/Nov/2020 15:53:07] "GET /getweb?engine=google&kw=rubber%20%20hose&num=32 HTTP/1.1" 301 0
+[30/Nov/2020 15:53:15] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=32 HTTP/1.1" 200 145
+[30/Nov/2020 15:53:57] "GET /getweb?engine=google&kw=123&num=0 HTTP/1.1" 301 0
+[30/Nov/2020 15:54:00] "GET /getweb/?engine=google&kw=123&num=0 HTTP/1.1" 200 24
+[30/Nov/2020 15:54:00] "GET /getweb?engine=google&kw=123&num=1 HTTP/1.1" 301 0
+
+********************************
+运行时间: 6.44234824180603
+https://cogsdill.com/products/burnishing-tools/deep-hole_drilling_machine_r1/
+++++++++++
+https://www.krishnaborewell.com/blog/how-to-increase-water-yield-in-borewell/
+++++++++++
+0
+https://www.thebalance.com/listing-agent-vs-selling-agent-1798878
+++++++++++
+10
+20
+5
+[('shah@gmail.com', 1), ('muhammadmuhyuddin@gmail.com', 1), ('admin@architecturedesinging.com', 1), ('supplier@pfpew.com', 1), ('info@processcrusher.com', 1)]
+0
+10
+20
+0
+[]
+http://www.premeuropa.com/woven-fabrics-products.html
+++++++++++
+http://home.iitk.ac.in/~vkjain/CV_vkjain_05-01-16.pdf
+++++++++++
+rubber  hose 31
+0
+10
+https://www.idealagent.com/
+++++++++++
+20
+0
+[]
+https://www.google.com/search?q=rubber%20%20hose&start=300
+0 []
+********************************
+[]
+********************************
+运行时间: 6.47568941116333
+0
+10
+20
+2
+[('hepatoma@gmail.com', 1), ('DesertFlowerRealty@DesertFlowerRealty.com', 1)]
+https://www.sanfoundry.com/machine-tools-questions-answers-deep-hole-drilling-machine/
+++++++++++
+https://finance.zacks.com/much-should-pay-buyers-agent-selling-home-yourself-2869.html
+++++++++++
+0
+10
+20
+0
+[]
+0
+10
+20
+0
+[]
+https://smallbusiness.chron.com/definition-commission-agent-12918.html
+++++++++++
+https://nintendo-news.de/s86st/goxl681ev1up5pldx2pyhdpuz3.html
+++++++++++
+0
+0
+10
+10
+20
+20
+0
+[]
+0
+[]
+https://kaplblr.com/manufacturing-plant.html
+++++++++++
+0
+10
+20
+7
+[('contactus@kaplblr.com', 2), ('prabhakar@kaplblr.com', 2), ('kappler@gmail.com', 2), ('sathyakumar52@gmail.com', 1), ('savinashk@gmail.com', 1), ('saraswathi@kaplblr.com', 1), ('kipelot@email.namner', 1)]
+https://themortgagereports.com/37898/how-much-do-real-estate-agents-make-from-my-home-purchase-and-who-pays
+++++++++++
+https://www.pinterest.com/darngoodyarn/yarn-dyeing/
+++++++++++
+0
+10
+20
+0
+[]
+https://finance.zacks.com/much-should-pay-buyers-agent-selling-home-yourself-2869.html
+++++++++++
+0
+10
+20
+0
+[]
+facemask kn95 12
+http://www.dtmpl.com/
+++++++++++
+https://www.google.com/search?q=facemask%20kn95&start=110
+10 [<Element div at 0x7f72ed4fa4b0>, <Element div at 0x7f72ed3f77d0>, <Element div at 0x7f72ed3fb140>, <Element div at 0x7f72ed3fb280>, <Element div at 0x7f72ee5d4d70>, <Element div at 0x7f72ed6a5aa0>, <Element div at 0x7f72ec2e57d0>, <Element div at 0x7f72ed51e0a0>, <Element div at 0x7f72ed42ed70>, <Element div at 0x7f72ed42ed20>]
+http://www.specialtyacc.com/ProductResults/?SearchTerms=KN95+Face+Mask
+https://www.natlawreview.com/article/fda-expands-face-mask-enforcement-policy-to-allow-imports-kn95-respirators
+https://www.healthsmartlabs.com/shop/ppe/kn95-mask/
+https://medmartonline.com/xieli-n95-respirator-face-mask
+https://www.trupotency.com/masks-kn95-10
+https://www.cablesandkits.com/safety-supplies/face-masks/cat-1376/
+https://www.gotopac.com/cleanpro-kn95.html
+https://evacuumstore.com/p-34481-kn95-disposable-face-mask.aspx
+https://www.idealuniform.com/kn95-protective-face-mask-5-pack-ffp2.html
+https://www.etsy.com/market/kn95
+********************************
+[{'title': 'KN95 Face Mask - Product Results - Specialty Accessory Sales', 'website': 'http://www.specialtyacc.com/ProductResults/?SearchTerms=KN95+Face+Mask', 'description': 'Stay safe and healthy by donning one of our KN95 face masks! Measuring 6" x 4", each white adult face mask features 5 layers of protection and is designed for\xa0...', 'mail': 'frank@specialtyacc.com;stephen@specialtyacc.com;glenrockorders@specialtyacc.com'}, {'title': 'FDA Face Mask Policy to Allow Imports of KN95 Respirators', 'website': 'https://www.natlawreview.com/article/fda-expands-face-mask-enforcement-policy-to-allow-imports-kn95-respirators', 'description': "2020年4月7日 — The Addition of KN95 Respirators. FDA's revised Enforcement Policy for Face Masks and Respirators During the Coronavirus Disease (COVID-19)\xa0...", 'mail': None}, {'title': 'DR MFYAN KN95 Masks For Sale | Shop KN95 | HealthSmart ...', 'website': 'https://www.healthsmartlabs.com/shop/ppe/kn95-mask/', 'description': 'The DR.MFYAN KN95 mask is included on the EUA list issued by the FDA and continuously monitored for quality control by the FDA, CDC and NIOSH. In Stock\xa0...', 'mail': None}, {'title': 'KN95 Respirator Face Mask - Med Mart', 'website': 'https://medmartonline.com/xieli-n95-respirator-face-mask', 'description': 'If properly fitted, the filtration capabilities of KN95 respirators exceed those of face masks. Product Highlights. Blocks at least 95% of airborne particles >0.3\xa0...', 'mail': None}, {'title': 'KN95 Protective Face Mask [Set of 10] - TruPotency', 'website': 'https://www.trupotency.com/masks-kn95-10', 'description': 'Filters 95% of particulates greater than 0.3 microns. 10 masks per order. Per CDC KN95 are suitable alternatives to N95 masks. An order of “1” equals quantity of\xa0...', 'mail': None}, {'title': 'Face Masks | CablesAndKits', 'website': 'https://www.cablesandkits.com/safety-supplies/face-masks/cat-1376/', 'description': 'Choose from options including surgical face masks, which keep your mouth and nose covered with three layers of soft, breathable, non-woven material, and KN95\xa0...', 'mail': 'sales@cablesandkits.com;contato@silesecosta.com;sodeco@gmail.com'}, {'title': 'CleanPro® KN95 Disposable KN95 Face Mask, White, Case ...', 'website': 'https://www.gotopac.com/cleanpro-kn95.html', 'description': 'Disposable KN95 Face Mask, White · Disposable non-surgical face masks. · This is not a medical rated mask and is meant for everyday civilian use. · Offers 95%\xa0...', 'mail': 'info@gotopac.com;duran@gotopac.com;martin@gotopac.com'}, {'title': 'KN95 Disposable Face Mask | eVacuumStore.com', 'website': 'https://evacuumstore.com/p-34481-kn95-disposable-face-mask.aspx', 'description': 'Help stop the spread of COVID-19 with a KN95 disposable face covering. This is a great solution for all the states, cities, and towns that are not requiring face\xa0...', 'mail': None}, {'title': 'KN95 Protective Face Mask (5-Pack) | Ideal Uniforms', 'website': 'https://www.idealuniform.com/kn95-protective-face-mask-5-pack-ffp2.html', 'description': 'KN95 Protective Face Mask (5-Pack) · The KN95 mask can filter 95% of non-oil based particles and aerosol particles. · 4 layers of protection and efficient filtering.', 'mail': 'customerservice@idealuniform.com;koyo@brooklynartselementary.org;info@academycharterschool.org'}, {'title': 'Kn95 | Etsy', 'website': 'https://www.etsy.com/market/kn95', 'description': 'Check out our kn95 selection for the very best in unique or custom, handmade pieces from our face masks & coverings shops.', 'mail': None}]
+********************************
+运行时间: 23.650331020355225
+rubber  hose 32
+https://www.google.com/search?q=rubber%20%20hose&start=310
+0 []
+********************************
+[]
+********************************
+运行时间: 7.584933042526245
+123 0
+123 1
+https://www.google.com/search?q=123&start=0
+8 [<Element div at 0x7f72ed4899b0>, <Element div at 0x7f72ec2e57d0>, <Element div at 0x7f72ec35cc80>, <Element div at 0x7f72ec35c870>, <Element div at 0x7f72ed511f50>, <Element div at 0x7f72ec30e960>, <Element div at 0x7f72de715eb0>, <Element div at 0x7f72de715c80>]
+https://www.youtube.com/channel/UCBXNpF6k2n8dsI6nBH8q4sQ
+pass!!!!
+https://123.hp.com/
+https://www.hao123.com/index.html
+https://www.facebook.com/123theband/
+pass!!!!
+https://secure.logmeinrescue.com/Customer/Code.aspx
+https://xkcd.com/123/
+https://zh.wikipedia.org/zh/123
+pass!!!!
+https://en.wikipedia.org/wiki/123_(number)
+pass!!!!
+********************************
+[{'title': '123.hp.com - HP Smart', 'website': 'https://123.hp.com/', 'description': 'Welcome to the HP® Official website to setup your printer. Get started with your new printer by downloading the software. You will be able to connect the printer\xa0...', 'mail': None}, {'title': 'hao123_上网从这里开始', 'website': 'https://www.hao123.com/index.html', 'description': '... 网新华网央视网国际在线中国日报中国网中经网光明网央广网求是网中青网网信网龙岩市政府 · 百度 · 新浪•微博 · 搜狐•热点 · 腾讯 · 网易 · 百度地图 · hao123影视.', 'mail': None}, {'title': 'LogMeIn123.com – Start Support Connection - LogMeIn Rescue', 'website': 'https://secure.logmeinrescue.com/Customer/Code.aspx', 'description': 'Support Connection. Enter your six-digit code, then click the Start Download button below. Start Download. How It Works\xa0...', 'mail': None}, {'title': 'Centrifugal Force - xkcd', 'website': 'https://xkcd.com/123/', 'description': 'Permanent link to this comic: https://xkcd.com/123/ Image URL (for hotlinking/embedding): https://imgs.xkcd.com/comics/centrifugal_force.png. [[ Bond is tied to a\xa0...', 'mail': None}][30/Nov/2020 15:54:08] "GET /getweb/?engine=google&kw=123&num=1 HTTP/1.1" 200 1848
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 899, in getnewmail
+    data = DataTable.objects.get(website__icontains=website)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+gettrademail.models.DataTable.MultipleObjectsReturned: get() returned more than one DataTable -- it returned 2!
+[30/Nov/2020 15:54:21] "GET /getmail/?website=https://www.questionsanswered.net/article/how-find-rvs-sale?ad=dirN&amp;qo=serpIndex&amp;o=740012 HTTP/1.1" 500 73491
+[30/Nov/2020 15:54:38] "GET /getmail/?website=http://french.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth HTTP/1.1" 200 22
+[30/Nov/2020 15:54:46] "GET /getweb?engine=google&kw=123&num=2 HTTP/1.1" 301 0
+[30/Nov/2020 15:55:00] "GET /getweb/?engine=google&kw=123&num=2 HTTP/1.1" 200 3489
+[30/Nov/2020 15:55:41] "GET /getmail/?website=http://gplustechsolutions.com/how-much-vv7xq/bonded-polyester-tex-92.html HTTP/1.1" 200 4
+[30/Nov/2020 15:55:42] "GET /getmail/?website=http://gulahmed.com/textile/products/made-ups/ HTTP/1.1" 200 56
+/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py changed, reloading.
+
+********************************
+运行时间: 6.734166383743286
+https://www.questionsanswered.net/article/how-find-rvs-sale?ad=dirN
+++++++++++
+http://french.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth
+++++++++++
+123 2
+https://www.google.com/search?q=123&start=10
+10 [<Element div at 0x7f72ec313a50>, <Element div at 0x7f72ed6aa320>, <Element div at 0x7f72ed3bd500>, <Element div at 0x7f72ed3bdc80>, <Element div at 0x7f72ec363730>, <Element div at 0x7f72ec363f50>, <Element div at 0x7f72ec363500>, <Element div at 0x7f72ec31b050>, <Element div at 0x7f72ec31b690>, <Element div at 0x7f72ec36bf50>]
+https://www.123.net/
+https://123andres.com/
+https://asp.icc-cpi.int/en_menus/asp/states%20parties/pages/the%20states%20parties%20to%20the%20rome%20statute.aspx
+pass!!!!
+https://www.123test.com/career-test/
+https://undocs.org/A/65/123
+https://www.whitehouse.gov/omb/information-for-agencies/circulars/
+https://www.drugs.com/imprints/123-17930.html
+https://123homecares.com/
+https://www.123formbuilder.com/signup.html
+https://youtube.fandom.com/wiki/123_GO!
+pass!!!!
+********************************
+[{'title': '123Net - Providing Enterprise Data Center, Network & Voice ...', 'website': 'https://www.123.net/', 'description': 'SOUTHFIELD, MI., Tuesday, November 24, 2020 – 123.Net Inc (123NET), a Michigan data center and network services provider, has signed a deal with a Tier-1\xa0...', 'mail': None}, {'title': "123 Andrés – Bilingual Children's Music", 'website': 'https://123andres.com/', 'description': 'Andrés and Christina are the Latin Grammy-winning music duo 123 Andrés, and their songs and concerts get the whole family singing and learning, in Spanish\xa0...', 'mail': None}, {'title': 'Career test - Free online aptitude test - 123test.com', 'website': 'https://www.123test.com/career-test/', 'description': '... Work values test · Team roles test · Jung personality test · DISC personality test. 123test is an independent European company and your privacy is guaranteed.', 'mail': None}, {'title': 'A/65/123 - Undocs.org', 'website': 'https://undocs.org/A/65/123', 'description': 'A/65/123. العربية 中文 English Français Русский Español.', 'mail': None}, {'title': 'Circulars | The White House', 'website': 'https://www.whitehouse.gov/omb/information-for-agencies/circulars/', 'description': 'OMB Circular A-123. Note: Portions of this policy have been modified by M-17-26, Reducing Burden for Federal Agencies by Rescinding and Modifying OMB\xa0...', 'mail': None}, {'title': '123 Pill Images (White / Capsule-shape) - Drugs.com', 'website': 'https://www.drugs.com/imprints/123-17930.html', 'description': 'Pill with imprint 123 is White, Capsule-shape and has been identified as Ibuprofen 800 mg. It is supplied by Marksans Pharma Inc..', 'mail': None}, {'title': '123 Home Care | In Home Care & Caregivers', 'website': 'https://123homecares.com/', 'description': 'Industry leading senior and disability in-home care services with the highest quality Qualified Caregivers at an affordable price. 35 locations serving California\xa0...', 'mail': None}, {'title': '123FormBuilder Pricing - Service Plans - Try It For Free!', 'website': 'https://www.123formbuilder.com/signup.html', 'description': '123FormBuilder is compliant with the ISO 27001 & ISO 9001 standards regarding information security and quality management. Frequently Asked Questions. What\xa0...', 'mail': None}]
+********************************
+运行时间: 12.71297311782837
+http://gplustechsolutions.com/how-much-vv7xq/bonded-polyester-tex-92.html
+++++++++++
+http://gulahmed.com/textile/products/made-ups/
+++++++++++
+0
+10
+20
+0
+[]
+https://www.shutterstock.com/search/sales agent
+https://www.shutterstock.com/search/sales
+++++++++++
+0
+10
+20
+2
+[('custom-contributors@shutterstock.com', 1), ('press@shutterstock.com', 1)]
+Watching for file changes with StatReloader
+[30/Nov/2020 15:56:23] "GET /getweb?engine=google&kw=rubber%20%20hose&num=33 HTTP/1.1" 301 0
+[30/Nov/2020 15:56:29] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=33 HTTP/1.1" 200 145
+[30/Nov/2020 15:56:34] "GET /getmail/?website=https://www.sanicleanstrainers.com/product/filter-socks-inline-strainers/ HTTP/1.1" 200 35
+[30/Nov/2020 15:56:34] "GET /getweb?engine=google&kw=facemask%20kn95&num=13 HTTP/1.1" 301 0
+Internal Server Error: /getmail/
+Traceback (most recent call last):
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/projects/venv/newtradeinfo/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/projects/djangoprojects/newtradeinfo/gettrademail/views.py", line 906, in getnewmail
+    if data.mail == None:
+AttributeError: 'QuerySet' object has no attribute 'mail'
+[30/Nov/2020 15:56:39] "GET /getmail/?website=https://www.fibre2fashion.com/yarns/cotton-yarn-buyers-1485384 HTTP/1.1" 500 62891
+[30/Nov/2020 15:56:48] "GET /getweb/?engine=google&kw=facemask%20kn95&num=13 HTTP/1.1" 200 5180
+[30/Nov/2020 15:56:48] "GET /getmail/?website=https://www.homedepot.com/b/Cleaning-Cleaning-Tools-Cleaning-Cloths-Microfiber-Cloths/N-5yc1vZcb2l HTTP/1.1" 200 31
+[30/Nov/2020 15:57:02] "GET /getmail/?website=http://www.greatwallfabrics.com/ HTTP/1.1" 200 62
+[30/Nov/2020 15:57:28] "GET /getmail/?website=https://rmo.borgonzonipresidente.it/terratex-n06.html HTTP/1.1" 200 25
+[30/Nov/2020 15:57:49] "GET /getmail/?website=https://www.onthemarket.com/&amp;sa=U&amp;ved=2ahUKEwjCiZHd4KntAhUkGaYKHfmvC_Q4FBAWMAN6BAgHEAE&amp;usg=AOvVaw37abw2reFpMg5zflR1AtkR HTTP/1.1" 200 4
+[30/Nov/2020 15:57:56] "GET /getmail/?website=https://jewishlifenews.com/global-market/global-polypropylene-monofilament-filter-cloth-market-growth-will-escalate-rapidly-2020-2025/&amp;sa=U&amp;ved=2ahUKEwj12qK9p4HqAhVCHaYKHeImBC44WhAWMAB6BAgDEAE&amp;usg=AOvVaw3PP398G-l-LV7hk0B8Qgez HTTP/1.1" 200 77
+[30/Nov/2020 15:58:00] "GET /getmail/?website=https://www.exportersindia.com/indian-suppliers/yarn-dyed-fabrics.htm HTTP/1.1" 200 72
+[30/Nov/2020 15:58:31] "GET /getweb?engine=google&kw=multi%20blade%20saw%20machine&num=0 HTTP/1.1" 301 0
+[30/Nov/2020 15:58:34] "GET /getweb/?engine=google&kw=multi%20blade%20saw%20machine&num=0 HTTP/1.1" 200 24
+[30/Nov/2020 15:58:35] "GET /getweb?engine=google&kw=multi%20blade%20saw%20machine&num=1 HTTP/1.1" 301 0
+[30/Nov/2020 15:58:41] "GET /getmail/?website=https://www.rightmove.co.uk/estate-agents.html&amp;sa=U&amp;ved=2ahUKEwi1yM_E4KntAhVEHKYKHQioAVA4ChAWMAZ6BAgCEAE&amp;usg=AOvVaw0q3ZbEVsYrET5IFW6d2ad4 HTTP/1.1" 200 4
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2020 - 15:56:11
+Django version 2.2.3, using settings 'newtradeinfo.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+https://cottonfiltercloth.wordpress.com/
+++++++++++
+https://www.sanicleanstrainers.com/product/filter-socks-inline-strainers/
+++++++++++
+rubber  hose 33
+https://www.google.com/search?q=rubber%20%20hose&start=320
+0 []
+********************************
+[]
+********************************
+运行时间: 4.9940643310546875
+https://www.fibre2fashion.com/yarns/cotton-yarn-buyers-1485384
+++++++++++
+facemask kn95 13
+https://www.homedepot.com/b/Cleaning-Cleaning-Tools-Cleaning-Cloths-Microfiber-Cloths/N-5yc1vZcb2l
+++++++++++
+https://www.google.com/search?q=facemask%20kn95&start=120
+10 [<Element div at 0x7faab4ce5e10>, <Element div at 0x7faab4ce55f0>, <Element div at 0x7faab446c780>, <Element div at 0x7faab446ca50>, <Element div at 0x7faab446c870>, <Element div at 0x7faab4d06e10>, <Element div at 0x7faab4d90730>, <Element div at 0x7faab4d90eb0>, <Element div at 0x7faab4d8b190>, <Element div at 0x7faab4df9e60>]
+https://www.etsy.com/market/kn95
+https://evacuumstore.com/p-34481-kn95-disposable-face-mask.aspx
+https://store.directsupply.com/Product/disposable-kn95-protective-masks-small-20959647?quantity=1&
+https://www.medicalexpo.com/medical-manufacturer/kn95-respirator-55805.html
+https://www.asatechmed.com/products/black-kn95-protective-face-mask-ce-ecm-certified-with-filter-5-pcs
+https://chefstoys.com/41113/economy-kn95-face-mask-pack-of-5
+https://www.discountsafetygear.com/3m-disposable-kn95-facemask-9502v.html
+https://www.shopmyexchange.com/great-health-kn95-respiratory-face-mask/2339443
+https://www.officedepot.com/a/products/6528612/Powecom-KN95-Face-Masks-Adult-One/
+https://primismedical.com/zh-cn/products/10-kn95-ffp2-face-mask-and-5-full-cover-face-shield-splash-protection
+********************************
+[{'title': 'Kn95 | Etsy', 'website': 'https://www.etsy.com/market/kn95', 'description': 'Check out our kn95 selection for the very best in unique or custom, handmade pieces from our face masks & coverings shops.', 'mail': None}, {'title': 'KN95 Disposable Face Mask | eVacuumStore.com', 'website': 'https://evacuumstore.com/p-34481-kn95-disposable-face-mask.aspx', 'description': 'Help stop the spread of COVID-19 with a KN95 disposable face covering. This is a great solution for all the states, cities, and towns that are not requiring face\xa0...', 'mail': None}, {'title': 'Disposable KN95 Protective Masks, Small (8XB56) | Direct ...', 'website': 'https://store.directsupply.com/Product/disposable-kn95-protective-masks-small-20959647?quantity=1&', 'description': 'Research and shop for Disposable KN95 Protective Masks, Small from Direct Supply – the leading provider of Senior Living solutions.', 'mail': None}, {'title': 'KN95 respirator, KN95 safety mask - All medical device ...', 'website': 'https://www.medicalexpo.com/medical-manufacturer/kn95-respirator-55805.html', 'description': 'Product Name：KN95 face mask Executive standard:GB2626-2006 Filtering effect≥95% Style：Earloop - Functions：anti-virus / prevent flu / anti somke / dust -\xa0...', 'mail': None}, {'title': 'BLACK KN95 Protective Face Mask CE/ECM Certified | With ...', 'website': 'https://www.asatechmed.com/products/black-kn95-protective-face-mask-ce-ecm-certified-with-filter-5-pcs', 'description': 'KN95 BLACK MASK WITH RESPIRATOR The KN95 mask can protect you from pollen, bacteria, germs, smog, smoke, and allergies. Recommended mask_\xa0...', 'mail': 'business@asatechmed.com'}, {'title': "KN95 Face Mask, Pack of 5 - Chefs' Toys", 'website': 'https://chefstoys.com/41113/economy-kn95-face-mask-pack-of-5', 'description': 'Protect yourself and others with this KN95 GB 2626-2006 Standard face mask. Suitable for respiratory protection, this mask filters dust, haze, bacteria, dropl.', 'mail': 'chefinfo@chefstoys.com;customersupport@chefstoys.com;last_initial@chefstoys.com'}, {'title': '3M KN95 Protective Particulate Respirator Face Mask with Valve', 'website': 'https://www.discountsafetygear.com/3m-disposable-kn95-facemask-9502v.html', 'description': 'These 3M KN95 9502V masks are a disposable, breathable valved option that protects against dirt, dust, and other airborne pathogens.', 'mail': 'customproducts@onlinestores.com;com-desktop@2x.158326'}, {'title': 'Great Health Kn95 Respiratory Face Mask | First Aid | Beauty ...', 'website': 'https://www.shopmyexchange.com/great-health-kn95-respiratory-face-mask/2339443', 'description': "Shop Great Health KN95 Respiratory Face Mask and other name brand First Aid Beauty & Health at The Exchange. You've earned the right to shop tax free and\xa0...", 'mail': 'connermar@aafes.com;last@shopmyexchange.com;OnlineStoreComplaints@aafes.com'}, {'title': 'Powecom KN95 Face Masks Adult One Size 10 Per Pack ...', 'website': 'https://www.officedepot.com/a/products/6528612/Powecom-KN95-Face-Masks-Adult-One/', 'description': 'KN95 masks from Powecom offer multilayer protection. Adjustable nose bridge and elastic earloop has enough elasticity to make a good seal. 3D three\xa0...', 'mail': 'APO-FPOOrders@officedepot.com;officedepot@printme.com;last@officedepot.com'}, {'title': 'KN95 Mask & Full Face Shield Combo Pack ( 10 Masks & 5 ...', 'website': 'https://primismedical.com/zh-cn/products/10-kn95-ffp2-face-mask-and-5-full-cover-face-shield-splash-protection', 'description': 'Combo Pack o (10) Taruo KN95 Face Mask & (5) Full Face Shield Protection Set • (10) Taruo KN95 FFP2 Respirator 3 Layer Disposable Face Masks - Model:\xa0...', 'mail': 'info@primismedical.com;abuse@godaddy.com;medical@mail.com'}]
+********************************
+运行时间: 13.183096170425415
+http://www.greatwallfabrics.com/
+++++++++++
+https://rmo.borgonzonipresidente.it/terratex-n06.html
+++++++++++
+https://www.onthemarket.com/
+++++++++++
+0
+10
+20
+https://jewishlifenews.com/global-market/global-polypropylene-monofilament-filter-cloth-market-growth-will-escalate-rapidly-2020-2025/
+++++++++++
+0
+[]
+https://www.exportersindia.com/indian-suppliers/yarn-dyed-fabrics.htm
+++++++++++
+multi blade saw machine 0
+https://www.rightmove.co.uk/estate-agents.html
+++++++++++
+multi blade saw machine 1
+https://www.google.com/search?q=multi%20blade%20saw%20machine&start=0
+8 [<Element div at 0x7faab4ced9b0>, <Element div at 0x7faab4d6f0a0>, <Element div at 0x7faab4f63f00>, <Element div at 0x7faab4f639b0>, <Element div at 0x7faab4f635a0>, <Element div at 0x7faab4f63c80>, <Element div at 0x7faab4cbfe60>, <Element div at 0x7faab4d8bf00>]
+https://www.surplex.com/en/machines/c/multi-blade-saws-7444.html
+0
+https://www.machineseeker.com/mss/multi+blade+saw
+10
+https://www.directindustry.com/industrial-manufacturer/multi-blade-saw-105605.html
+20
+https://www.alibaba.com/showroom/multi-blade-saw-machine.html
+pass!!!!
+https://www.made-in-china.com/products-search/hot-china-products/Multi_Blade_Saw_Machine.html
+0
+[]
+https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/
+https://www.facebook.com/arterkisaws/videos/multi-blade-wood-saw-machine-for-square-timber/958735274300049/
+pass!!!!
+https://www.facebook.com/arterkisaws/videos/hard-wood-cutting-machine-log-single-rip-saw-processing-rosewood/737565283083717/
+pass!!!!
+********************************
+[{'title': '▷ Used Multi-blade Saw for sale | Wood Multi Rip Circular Saws', 'website': 'https://www.surplex.com/en/machines/c/multi-blade-saws-7444.html', 'description': '2020年4月12日 — The wood is fed into a multi-blade saw via a horizontal, low-vibration feed table. The various sawing tools of a multi-blade saw machine are\xa0...', 'mail': None}, {'title': '▷ Used Multi Blade Saw for sale - Machineseeker', 'website': 'https://www.machineseeker.com/mss/multi+blade+saw', 'description': '2x Bezner peeling machine including 1 spare blade. For sale together or separately if required (1000€ each) + Hcdqfrjgk Multi-blade saw used (200€) package\xa0...', 'mail': None}, {'title': 'Multi-blade saw - All industrial manufacturers - Videos', 'website': 'https://www.directindustry.com/industrial-manufacturer/multi-blade-saw-105605.html', 'description': 'Find your multi-blade saw easily amongst the 14 products from the leading brands ... Automatic Cutting Machine For PVC Strips FEATURES Used for cutting\xa0...', 'mail': None}, {'title': 'Multi Blade Saw Machine manufacturers & suppliers - Made-in ...', 'website': 'https://www.made-in-china.com/products-search/hot-china-products/Multi_Blade_Saw_Machine.html', 'description': '10737 products — China Multi Blade Saw Machine manufacturers - Select 2020 high quality Multi Blade Saw Machine products in best price from certified Chinese\xa0...', 'mail': None}, {'title': 'Used multi-blade saws - Exapro', 'website': 'https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/', 'description': 'Raimann KM 310 BV Multi-blade saw Verified seller ... This saves people time from having two use two or more machines or from having to unload the same\xa0...', 'mail': None}][30/Nov/2020 15:58:42] "GET /getweb/?engine=google&kw=multi%20blade%20saw%20machine&num=1 HTTP/1.1" 200 2518
+[30/Nov/2020 15:59:07] "GET /getweb?engine=google&kw=multi%20blade%20saw%20machine&num=2 HTTP/1.1" 301 0
+[30/Nov/2020 15:59:15] "GET /getweb/?engine=google&kw=multi%20blade%20saw%20machine&num=2 HTTP/1.1" 200 2326
+[30/Nov/2020 15:59:29] "GET /getmail/?website=https://image.dearrygr.com/sltxc/filter-fabric.html&amp;sa=U&amp;ved=2ahUKEwjp1OKj0Z_pAhUZH3AKHTpdDqs4ZBAWMAF6BAgBEAE&amp;usg=AOvVaw1vEW3UreAncdm_EqAG8rSQ HTTP/1.1" 200 4
+[30/Nov/2020 15:59:45] "GET /getweb?engine=google&kw=multi%20blade%20saw%20machine&num=3 HTTP/1.1" 301 0
+[30/Nov/2020 15:59:49] "GET /getweb?engine=google&kw=rubber%20%20hose&num=34 HTTP/1.1" 301 0
+[30/Nov/2020 15:59:52] "GET /getweb/?engine=google&kw=multi%20blade%20saw%20machine&num=3 HTTP/1.1" 200 2547
+[30/Nov/2020 15:59:55] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=34 HTTP/1.1" 200 145
+[30/Nov/2020 16:00:20] "GET /getmail/?website=http://arabic.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth HTTP/1.1" 200 4
+[30/Nov/2020 16:00:34] "GET /getweb?engine=google&kw=facemask%20kn95&num=14 HTTP/1.1" 301 0
+
+********************************
+运行时间: 6.317980766296387
+multi blade saw machine 2
+https://www.google.com/search?q=multi%20blade%20saw%20machine&start=10
+10 [<Element div at 0x7faab41e0d20>, <Element div at 0x7faab4cf13c0>, <Element div at 0x7faab4d82870>, <Element div at 0x7faab4d825f0>, <Element div at 0x7faab4d82d20>, <Element div at 0x7faab4d821e0>, <Element div at 0x7faab4d82730>, <Element div at 0x7faab4d82f00>, <Element div at 0x7faab4d82410>, <Element div at 0x7faab4d824b0>]
+https://www.youtube.com/watch?v=1ftdqFgC2HQ
+pass!!!!
+https://www.facebook.com/arterkisaws/videos/multi-blade-wood-saw-machine-for-square-timber/958735274300049/
+pass!!!!
+https://www.facebook.com/arterkisaws/videos/hard-wood-cutting-machine-log-single-rip-saw-processing-rosewood/737565283083717/
+pass!!!!
+https://www.facebook.com/Arterki-Multiple-Rip-Saw-Machine-128979034181890/videos/multi-blade-saw-for-plank-processing/424547257958398/
+pass!!!!
+https://www.amazon.com/Circular-Machine-Powered-Professional-Multi-functional/dp/B082WBGSD2
+pass!!!!
+https://trademachines.com/multi-blade-saw
+http://www.copyshapermachine.com/ProductDetail/1855513.html
+https://www.resale.info/en/CML/Multi-blade-saws/kat-1259/
+https://www.aliexpress.com/i/32843844633.html
+https://flextos.com/en/accessories/multi-blade-sawing-unit-4-fold/
+********************************
+[{'title': 'Used Multi Blade Saw for Sale - TradeMachines', 'website': 'https://trademachines.com/multi-blade-saw', 'description': '158 Online offers of used Multi-Blade Saws available in Wood Saws category | Meta-search Engine for Used Equipment worldwide | Browse our inventory | Save\xa0...', 'mail': None}, {'title': 'Multiple Blade Rip Saw Machine ZQ350', 'website': 'http://www.copyshapermachine.com/ProductDetail/1855513.html', 'description': 'Our multi rip saw machine are widely used for round log cutting,its can cut different diameter round logs with ...', 'mail': None}, {'title': '▷ CML Multi blade saws used machine for sale - resale.info', 'website': 'https://www.resale.info/en/CML/Multi-blade-saws/kat-1259/', 'description': 'MULTIBLADE RIP-SAW - CML J 350 year of manufacturing 2003 CE standard blade motor power 22 kw (30 hp) max blade diameter 370 mm max working\xa0...', 'mail': None}, {'title': 'MJ1300 X3 Multiple Blade Cutting Machine Multiple Rip Saw ...', 'website': 'https://www.aliexpress.com/i/32843844633.html', 'description': 'Cheap Wood Based Panels Machinery, Buy Quality Tools Directly from China Suppliers:MJ1300 X3 Multiple Blade Cutting Machine Multiple Rip Saw Enjoy\xa0...', 'mail': None}, {'title': 'Multi-Blade Sawing Unit 4-fold for Supercut Milling and ...', 'website': 'https://flextos.com/en/accessories/multi-blade-sawing-unit-4-fold/', 'description': 'High-performance change unit with 4 parallel saw blades for multiple cuts. Innovative swivel technology + convenient laser adjustment.', 'mail': None}]
+********************************
+运行时间: 7.280266761779785
+https://image.dearrygr.com/sltxc/filter-fabric.html
+++++++++++
+0
+10
+20
+0
+[]
+multi blade saw machine 3
+https://www.google.com/search?q=multi%20blade%20saw%20machine&start=20
+10 [<Element div at 0x7faab44216e0>, <Element div at 0x7faab4cdaa50>, <Element div at 0x7faab4cdad20>, <Element div at 0x7faab4d38500>, <Element div at 0x7faab4d6f0a0>, <Element div at 0x7faab4df5500>, <Element div at 0x7faab4df55a0>, <Element div at 0x7faab4cede60>, <Element div at 0x7faab4ccecd0>, <Element div at 0x7faab4cce5f0>]
+https://www.toolots.com/shengong-multi-rip-saw-woodworking-230v.html
+https://patents.google.com/patent/CN201350651Y/en
+pass!!!!
+https://www.unitekmachinery.com/rip-saw/UT-M14-2.html
+https://shfuma.en.alibaba.com/product/60740497310-215980278/MJ143_Multi_Blade_Round_Sawing_Machine_Wood_Cutting_Saw_Machine.html
+pass!!!!
+https://m.weinigusa.com/us/products/rip-saws/profirip-series.html
+https://nymgjx.en.alibaba.com/product/60702154628-819797168/Multi_blade_wood_saw_machine.html
+pass!!!!
+https://zzchryso.en.alibaba.com/product/62437010412-807714732/Wood_log_multi_blade_saw_machine_circular_sawmill_machine.html
+pass!!!!
+https://www.equipmentimes.com/product/details/wood-multi-blade-saw-machine-MJ162A_14240.html
+rubber  hose 34
+https://neweek.en.alibaba.com/product/60564721383-806368087/NEWEEK_woodworking_timber_sawing_circular_wood_multi_blade_saw_machine_for_sale.html
+pass!!!!
+https://www.core77.com/posts/26245/engineering-company-modernizes-an-obsolete-production-machine-the-beastly-multi-bladed-jigsaw-26245
+********************************
+[{'title': 'Multi-blade Rip Saw Woodworking Machine | Toolots', 'website': 'https://www.toolots.com/shengong-multi-rip-saw-woodworking-230v.html', 'description': 'Shop woodworking gang rip saws with 230V, 60Hz, 3 phase and the 30 HP motor, this machine works really great. Laser light for accurate side aligning.', 'mail': None}, {'title': 'CNC Band Saw- Heavy Duty Multi Blade Rip Saw', 'website': 'https://www.unitekmachinery.com/rip-saw/UT-M14-2.html', 'description': 'UNITEK Woodworking Machinery is a lots of Taiwan famous manufactures direct sales company and exporters all kind of woodworking machines.The range of\xa0...', 'mail': None}, {'title': 'ProfiRip series automatic rip saw machine - MICHAEL WEINIG ...', 'website': 'https://m.weinigusa.com/us/products/rip-saws/profirip-series.html', 'description': 'WEINIG ProfiRip series: High-performance multi-blade rip saw for all requirements. Width cutting plays a decisive role in solid wood processing, for rip\xa0...', 'mail': None}, {'title': 'wood multi blade saw machine MJ162A - Equipmentimes.com', 'website': 'https://www.equipmentimes.com/product/details/wood-multi-blade-saw-machine-MJ162A_14240.html', 'description': 'A multi-blade rip saw is a saw that is specially designed for making rip cuts. The cutting edge of each tooth has a flat front edge and it is not angled forward or\xa0...', 'mail': None}, {'title': 'The Beastly Multi-Bladed Jigsaw - Core77', 'website': 'https://www.core77.com/posts/26245/engineering-company-modernizes-an-obsolete-production-machine-the-beastly-multi-bladed-jigsaw-26245', 'description': '2014年1月14日 — Engineering Company Modernizes an Obsolete Production Machine: The ... But before the circular saw blade became the preferred method for\xa0...', 'mail': None}]
+********************************
+运行时间: 6.0298240184783936
+https://www.google.com/search?q=rubber%20%20hose&start=330
+0 []
+********************************
+[]
+********************************
+运行时间: 4.451233625411987
+http://arabic.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth
+++++++++++
+0
+10
+20
+0
+[]
+facemask kn95 14
+https://www.google.com/search?q=facemask%20kn95&start=130
+10 [<Element div at 0x7faab418e9b0>, <Element div at 0x7faab418ed70>, <Element div at 0x7faab418e370>, <Element div at 0x7faab418e6e0>, <Element div at 0x7faab418e5a0>, <Element div at 0x7faab4d5f280>, <Element div at 0x7faab4d5f870>, <Element div at 0x7faab4d5f640>, <Element div at 0x7faab4d5fd20>, <Element div at 0x7faab4d5f0f0>]
+https://primismedical.com/zh-cn/products/10-kn95-ffp2-face-mask-and-5-full-cover-face-shield-splash-protection
+https://www.monoprice.com/product?p_id=41642
+https://www.ferguson.com/product/kn95-protective-face-mask-in-white-pack-of-20-kn9520/_/R-8501273
+https://www.quill.com/disposable-kn95-face-mask-10-pack-kn95/cbs/55382840.html
+https://globalglove.com/products/nw-kn95-lightweight-disposable-white-face-mask
+https://observer.com/2020/04/n95-face-mask-shortage-fda-authorize-alternative-china-kn95/
+https://www.sopromoco.com/ProductResults/?SearchTerms=kn95
+https://dreamhug.com/products/kn95-protective-5-face-mask-pack
+https://cpr-savers.com/KN95-Masks-20case_p_19472.html
+https://www.batteryjunction.com/mask-kn95.html
+********************************
+[{'title': 'KN95 Mask & Full Face Shield Combo Pack ( 10 Masks & 5 ...', 'website': 'https://primismedical.com/zh-cn/products/10-kn95-ffp2-face-mask-and-5-full-cover-face-shield-splash-protection', 'description': 'Combo Pack o (10) Taruo KN95 Face Mask & (5) Full Face Shield Protection Set • (10) Taruo KN95 FFP2 Respirator 3 Layer Disposable Face Masks - Model:\xa0...', 'mail': 'info@primismedical.com;abuse@godaddy.com;medical@mail.com'}, {'title': 'KN95 Face Mask 50 Pack (5 bags of 10) Breathing ...', 'website': 'https://www.monoprice.com/product?p_id=41642', 'description': 'kn95 Face Mask, Bulk pack of 50 piecesEach box contain 5 packs of 10 individually sealed disposable kn95 mask Multi Layered ConstructionMulti layered mask\xa0...', 'mail': 'luthi@monoprice.com;mariscal@monoprice.com;escalations@monoprice.com'}, {'title': 'KN95 Protective Face Mask in White (Pack of 20) - Ferguson', 'website': 'https://www.ferguson.com/product/kn95-protective-face-mask-in-white-pack-of-20-kn9520/_/R-8501273', 'description': 'KN95 Protective Face Mask in White (Pack of 20) (KN95M20PK) at Ferguson. Nobody expects more from us than we do. ®', 'mail': 'last@ferguson.com;michael@ferguson.com;jacobs@ferguson.com'}, {'title': 'Disposable KN95 Face Mask, 10/Pack (KN95) | Quill.com', 'website': 'https://www.quill.com/disposable-kn95-face-mask-10-pack-kn95/cbs/55382840.html', 'description': 'See pricing info, deals and product reviews for Disposable KN95 Face Mask, 10/Pack (KN95) at Quill.com. Order online today and get fast, free shipping for your\xa0...', 'mail': 'last@quill.com;mail@rustyquill.com'}, {'title': 'NW-KN95 -Lightweight Disposable White Face Mask | Global ...', 'website': 'https://globalglove.com/products/nw-kn95-lightweight-disposable-white-face-mask', 'description': 'This lightweight, disposable KN95 face mask is made from three layers of polypropylene material and one layer of filtration material. It features an adjustable\xa0...', 'mail': 'Trey@TIGsafety.com;Sales@globalglove.com;gompers@globalglove.com'}, {'title': 'Face Mask Shortage, US Hesitates to Import Chinese N95 ...', 'website': 'https://observer.com/2020/04/n95-face-mask-shortage-fda-authorize-alternative-china-kn95/', 'description': '2020年4月3日 — While N95 face masks are in shortage in the U.S., the FDA is slow to authorize imports of N95 alternatives, including Chinese-certified KN95.', 'mail': None}, {'title': 'Face Mask - Southern Print Company', 'website': 'https://www.sopromoco.com/ProductResults/?SearchTerms=kn95', 'description': 'KN95 Protective Face Mask is made of Non-woven Fabric, KN95 Solvent Spray,Thermal Insulation Cotton, With FDA certificate, Well function for protect us from\xa0...', 'mail': 'user@example.com'}, {'title': 'KN95 Protective Face Mask - 5 Pack | DreamHug', 'website': 'https://dreamhug.com/products/kn95-protective-5-face-mask-pack', 'description': 'Protect yourself from dust, pollen, smoke and other unseen airborne substances with our KN95 protective face masks. Great for general use, travel or outdoor\xa0...', 'mail': None}, {'title': 'KN95 Masks (20/case) - CPR Savers & First Aid Supply', 'website': 'https://cpr-savers.com/KN95-Masks-20case_p_19472.html', 'description': 'KN95 Masks (20/case)-CDC Recommended Alternatives to the N95 NIOSH mask What is the difference between the KN95, N95, KF94, FFP2 respiratory face\xa0...', 'mail': None}, {'title': 'KN95 Respirator Face Mask - Must be Ordered in Multiples of 5', 'website': 'https://www.batteryjunction.com/mask-kn95.html', 'description': '- These masks are not NIOSH tested or approved. - Personal Protective Equipment: All sales are final - no returns, exchanges, or refunds. KN95 Protection Face\xa0...', 'mail': 'sales@shorepowerinc.com;dkravet@batteryjunction.com;pohlmann@statista.com'}][30/Nov/2020 16:00:42] "GET /getweb/?engine=google&kw=facemask%20kn95&num=14 HTTP/1.1" 200 5203
+[30/Nov/2020 16:00:51] "GET /getmail/?website=https://www.smallworldindia.com/home-textile-sourcing&amp;sa=U&amp;ved=2ahUKEwi3hrHU46ntAhVyHKYKHac_BNI4ChAWMAl6BAgDEAE&amp;usg=AOvVaw0AhbLBRYq4P5tKs4zVAcpo HTTP/1.1" 200 27
+[30/Nov/2020 16:01:19] "GET /getmail/?website=https://www.facebook.com/arterkisaws/posts&amp;sa=U&amp;ved=2ahUKEwi93sKJ5qntAhXiLqYKHaTAD5o4ChAWMAB6BAgIEAE&amp;usg=AOvVaw0fUl5dhZJrtvYRrJdRcp8l HTTP/1.1" 200 61
+[30/Nov/2020 16:02:15] "GET /getweb?engine=google&kw=Plastic%20parts&num=16 HTTP/1.1" 301 0
+[30/Nov/2020 16:02:25] "GET /getweb/?engine=google&kw=Plastic%20parts&num=16 HTTP/1.1" 200 4617
+[30/Nov/2020 16:02:31] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=0 HTTP/1.1" 301 0
+[30/Nov/2020 16:02:33] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=0 HTTP/1.1" 200 24
+[30/Nov/2020 16:02:34] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=1 HTTP/1.1" 301 0
+
+********************************
+https://www.smallworldindia.com/home-textile-sourcing
+++++++++++
+运行时间: 7.800785303115845
+0
+10
+20
+1
+[('contact@smallworldindia.com', 1)]
+https://www.facebook.com/arterkisaws/posts
+++++++++++
+https://www.facebook.com/arterkisaws/posts
+++++++++++
+Plastic parts 16
+https://www.google.com/search?q=Plastic%20parts&start=150
+10 [<Element div at 0x7faab4d6f500>, <Element div at 0x7faab4cbf9b0>, <Element div at 0x7faab4cbfdc0>, <Element div at 0x7faab4cbfa00>, <Element div at 0x7faab4cbf550>, <Element div at 0x7faab4191a50>, <Element div at 0x7faab4dcf410>, <Element div at 0x7faab4dcf9b0>, <Element div at 0x7faab4dcfe10>, <Element div at 0x7faab4dcf960>]
+http://www.plasticmachinerysales.com/
+https://www.mw-ind.com/brands/life-sciences/
+https://www.outwater.com/
+https://www.industrial-lasers.com/surface-treatment/article/14185379/postprocessing-of-laser-additively-manufactured-metal-and-plastic-parts
+https://buckettruckparts.com/
+https://www.sculpteo.com/blog/2017/10/11/waterproof-plastic-testing-how-did-our-plastic-parts-perform/
+https://www.curbellplastics.com/
+https://knaufautomotive.com/products/injection-molded-components/
+https://www.dupont.com/products/delrin.html
+https://www.obzorzlin.com/services/injection-moulding/production-plastic-parts
+********************************
+[{'title': 'Plastic Machinery - Plastic Machinery & Parts', 'website': 'http://www.plasticmachinerysales.com/', 'description': 'Plastic Machinery Sales is a worldwide leader of new and used machinery including plastic bag making machinery and pouch Making equipment Call: 631 277\xa0...', 'mail': None}, {'title': 'Life Sciences - Precision Metal & Plastic Components | MW ...', 'website': 'https://www.mw-ind.com/brands/life-sciences/', 'description': '2020年11月19日 — MW Life Sciences offers a single-source solution by streamlining supply chain and managing manufacturing from design to distribution.', 'mail': None}, {'title': 'Outwater Plastics & Architectural Products', 'website': 'https://www.outwater.com/', 'description': 'Established international manufacturers and stocking distributors of more than 65000 standard and innovative component products for a very diversified range of\xa0...', 'mail': None}, {'title': 'Post-processing of laser additively manufactured metal and ...', 'website': 'https://www.industrial-lasers.com/surface-treatment/article/14185379/postprocessing-of-laser-additively-manufactured-metal-and-plastic-parts', 'description': '7 天前 — They also can create parts made of various metals and plastics such as ... This plastic part was printed and Water Jet Slurry Blasted to remove\xa0...', 'mail': None}, {'title': 'Plastic Composites Co - Home of Bucket Truck Parts', 'website': 'https://buckettruckparts.com/', 'description': 'Plastic Composites Co - Home of Bucket Truck Parts.', 'mail': None}, {'title': 'Waterproof plastic testing: How did our plastic parts perform', 'website': 'https://www.sculpteo.com/blog/2017/10/11/waterproof-plastic-testing-how-did-our-plastic-parts-perform/', 'description': '2017年10月11日 — We did a waterproof plastic testing to see how did our plastic 3D printed parts performed in exposure to water.', 'mail': None}, {'title': 'Plastic Sheet, Rod Materials - Buy, Research at Curbell ...', 'website': 'https://www.curbellplastics.com/', 'description': 'Recorded webinar for machinery designers and engineers who wish to develop additional expertise with plastic material selection and plastic part design. The\xa0...', 'mail': None}, {'title': 'Injection molded car components - Knauf Industries Automotive', 'website': 'https://knaufautomotive.com/products/injection-molded-components/', 'description': 'Automotive Injection Molded Parts. Knauf Industries Automotive as a plastic injection molding manufacturer and supplier, specializes in thermoplastic injection\xa0...', 'mail': None}, {'title': 'Delrin® Plastic | Acetal Plastic - DuPont', 'website': 'https://www.dupont.com/products/delrin.html', 'description': 'Plastic parts displayed on a table. Delrin® Solutions. 01. DuPont™ Delrin® Acetal Homopolymer Outperforms Acetal Copolymer and Reduces Cost Per Part.', 'mail': None}, {'title': 'Production of plastic parts | OBZOR Zlín', 'website': 'https://www.obzorzlin.com/services/injection-moulding/production-plastic-parts', 'description': 'Production of plastic parts. Max. part weight: 350g. Max. clamping force: 200t. Manufacturingcconsumer and technical produkts. Used materials:.', 'mail': None}]
+********************************
+运行时间: 9.684416055679321
+pet bedding products 0
+pet bedding products 1
+https://www.google.com/search?q=pet%20bedding%20products&start=0
+10 [<Element div at 0x7faab443d960>, <Element div at 0x7faab4cedc30>, <Element div at 0x7faab5f36410>, <Element div at 0x7faab4209960>, <Element div at 0x7faab445e8c0>, <Element div at 0x7faab4191a50>, <Element div at 0x7faab4194280>, <Element div at 0x7faab4194c30>, <Element div at 0x7faab4194dc0>, <Element div at 0x7faab4194f50>]
+https://www.midwesthomes4pets.com/products/pet-bedding
+https://www.goodhousekeeping.com/life/pets/g27129347/best-dog-beds/
+https://www.target.com/s/pet+bedding
+https://www.nytimes.com/wirecutter/reviews/best-dog-beds/
+https://www.amazon.com/Best-Sellers-Pet-Supplies-Dog-Bed-Covers/zgbs/pet-supplies/2975327011
+pass!!!!
+https://www.amazon.com/dog-beds/b?ie=UTF8&node=2975330011
+pass!!!!
+https://www.petbusiness.com/archives/small-animal-bedding-products/article_55b23b67-36cd-599d-a4bf-5ceaeca7ef0b.html
+https://www.petco.com/shop/en/petcostore/category/dog/dog-beds-and-bedding
+https://www.kaytee.com/all-products/small-animal/bedding
+https://www.chewy.com/b/beds-365
+********************************
+[{'title': 'Pet Bedding | MidWest Homes For Pets', 'website': 'https://www.midwesthomes4pets.com/products/pet-bedding', 'description': "We guarantee our pet bedding material won't shrink or lump together, thereby making your product unfit for use. From our original Quiet Time® Fleece to our\xa0...", 'mail': None}, {'title': '10 Best Dog Beds in 2020 - Top-Rated Beds for Small and ...', 'website': 'https://www.goodhousekeeping.com/life/pets/g27129347/best-dog-beds/', 'description': '2020年11月18日 — Small or large, your dog deserves a bed as comfy as yours. By Emma Seymour, Good ... Pet Bed. Amazon. K&H Pet Products amazon.com.', 'mail': None}, {'title': 'Pet Bedding : Target', 'website': 'https://www.target.com/s/pet+bedding', 'description': 'Shop for pet bedding online at Target. Choose from contactless Same Day Delivery, Drive Up and more.', 'mail': None}, {'title': 'The Best Dog Beds for 2020 | Reviews by Wirecutter', 'website': 'https://www.nytimes.com/wirecutter/reviews/best-dog-beds/', 'description': '2019年8月23日 — Our pick. Majestic Pet Products Suede Bagel Dog Bed. The best basic dog bed. Nice and cozy, easy to wash, and a snap to restuff. Also great. K&H Original Pet Cot. Good for outdoors or warm environments. Also great. MidWest QuietTime Deluxe Ombré Swirl. If you use a dog crate. Upgrade pick. Casper Dog Mattress. A ...', 'mail': None}, {'title': 'Small Animal Bedding Products | Archives | petbusiness.com', 'website': 'https://www.petbusiness.com/archives/small-animal-bedding-products/article_55b23b67-36cd-599d-a4bf-5ceaeca7ef0b.html', 'description': "2019年4月1日 — This selection of bedding and litter products provides a variety of innovative options for keeping a small pet's home clean and comfortable.", 'mail': None}, {'title': 'Dog Beds & Bedding: Best Large & Small Dog Beds on Sale ...', 'website': 'https://www.petco.com/shop/en/petcostore/category/dog/dog-beds-and-bedding', 'description': 'Results 1 - 48 of 959 — Shop dog beds at Petco and get free shipping on orders of $35 or more! From small to extra-large, plush to firm, and waterproof to\xa0...', 'mail': None}, {'title': 'Small Animal Bedding - Kaytee', 'website': 'https://www.kaytee.com/all-products/small-animal/bedding', 'description': '23 products — Discover the best Small Animal Bedding & Litter in Best Sellers. Find pet bedding supplies for your small pet. ... Small Animal by Product Type.', 'mail': None}, {'title': 'Dog Beds: Small to Large, Low Prices (Free Shipping) | Chewy', 'website': 'https://www.chewy.com/b/beds-365', 'description': 'Results 1 - 36 of 763 — Frisco Steel-Framed Elevated Dog Bed, Brown, Large ... Precision Pet Products SnooZZy Round Shearling Bolster Dog Bed, 21-in. $15.99.', 'mail': None}][30/Nov/2020 16:02:45] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=1 HTTP/1.1" 200 3948
+[30/Nov/2020 16:02:55] "GET /getmail/?website=https://www.directindustry.com/industrial-manufacturer/multi-blade-saw-105605.html HTTP/1.1" 200 15
+[30/Nov/2020 16:03:01] "GET /getweb?engine=google&kw=rubber%20%20hose&num=35 HTTP/1.1" 301 0
+[30/Nov/2020 16:03:05] "GET /getmail/?website=https://folks.orty.digital/29tsgf/braid-engine.html&amp;sa=U&amp;ved=2ahUKEwia-Z6wiK7pAhWzhXIEHX9ODFQ4eBAWMAR6BAgHEAE&amp;usg=AOvVaw2DboQiN5M1OCZgQiiMnXhH HTTP/1.1" 200 4
+[30/Nov/2020 16:03:06] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=35 HTTP/1.1" 200 145
+[30/Nov/2020 16:03:17] "GET /getmail/?website=https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/ HTTP/1.1" 200 4
+[30/Nov/2020 16:03:22] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=2 HTTP/1.1" 301 0
+[30/Nov/2020 16:03:32] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=2 HTTP/1.1" 200 4781
+[30/Nov/2020 16:03:49] "GET /getmail/?website=https://www.resale.info/en/CML/Multi-blade-saws/kat-1259/ HTTP/1.1" 200 39
+[30/Nov/2020 16:04:07] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=3 HTTP/1.1" 301 0
+[30/Nov/2020 16:04:10] "GET /getweb?engine=google&kw=facemask%20kn95&num=15 HTTP/1.1" 301 0
+
+********************************
+运行时间: 10.522357940673828
+https://www.directindustry.com/industrial-manufacturer/multi-blade-saw-105605.html
+++++++++++
+0
+10
+20
+1
+[('aime@aimehq.org', 1)]
+https://folks.orty.digital/29tsgf/braid-engine.html
+++++++++++
+rubber  hose 35
+0
+10
+20
+0
+[]
+https://www.google.com/search?q=rubber%20%20hose&start=340
+0 []
+********************************
+[]
+********************************
+运行时间: 3.663944721221924
+https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/
+++++++++++
+0
+10
+20
+0
+[]
+pet bedding products 2
+https://www.google.com/search?q=pet%20bedding%20products&start=10
+10 [<Element div at 0x7faab4209c30>, <Element div at 0x7faab41cf730>, <Element div at 0x7faab4d5f820>, <Element div at 0x7faab41b9f00>, <Element div at 0x7faab443ec80>, <Element div at 0x7faab443e960>, <Element div at 0x7faab4d78cd0>, <Element div at 0x7faab4f5b6e0>, <Element div at 0x7faab4d38500>, <Element div at 0x7faab419af50>]
+https://purple.com/pet-bed
+https://www.healthy-pet.com/
+https://www.tractorsupply.com/tsc/catalog/dog-bedding
+https://www.petplay.com/
+https://www.thomasnet.com/products/animal-bedding-4423406-1.html
+https://www.petsmart.com/dog/beds-and-furniture/
+https://casper.com/dog-beds/
+https://nymag.com/strategist/article/best-dog-beds-expert-recommendations.html
+https://www.milliardbedding.com/product-category/pet-beds/
+https://www.wayfair.com/pet/cat/dog-beds-c409475.html
+********************************
+[{'title': 'Dog Beds | Pet Beds | Small to Large - Purple Mattress', 'website': 'https://purple.com/pet-bed', 'description': 'The Purple Pet Bed · 100 Night 100-night trial · Warranty 1-year warranty · Shipping Free Shipping\xa0...', 'mail': None}, {'title': 'Healthy Pet | Natural Cat Litter | Small Pet Bedding', 'website': 'https://www.healthy-pet.com/', 'description': 'Healthy Pet® creates small pet bedding and natural cat litter made from ... Brands include carefresh small pet bedding, okocat natural cat litter, Puppy Go Potty ... From sustainable sourcing to planet friendly products, Healthy Pet provides\xa0...', 'mail': None}, {'title': 'Dog Bedding at Tractor Supply Co.', 'website': 'https://www.tractorsupply.com/tsc/catalog/dog-bedding', 'description': 'TSC carries Dog Bedding. ... K&H Pet Products Lectro-Soft Outdoor Heated Bed Clearance Clearance* *Select Items Sale Sale* *Select Items. { "Brown": { "Tan":\xa0...', 'mail': None}, {'title': 'Luxury Dog Beds: Designer Pet Beds, Toys & Accessories by ...', 'website': 'https://www.petplay.com/', 'description': 'Looking for premium dog products, such as beds, toys, or accessories for your pet? ... Browse our luxury pet products now! ... What Makes the Perfect Dog Bed?', 'mail': None}, {'title': 'Animal Bedding Manufacturers and Suppliers in the USA', 'website': 'https://www.thomasnet.com/products/animal-bedding-4423406-1.html', 'description': 'Manufacturer of bedding products for pets and textile industry. Products include mattresses, sheets, blankets, rugs, comforters, covers, curtains, duvets, pillows,\xa0...', 'mail': None}, {'title': 'Dog Beds: Puppy Beds & Furniture | PetSmart', 'website': 'https://www.petsmart.com/dog/beds-and-furniture/', 'description': '392 Items — Keep them cozy and comfortable with dog beds, blankets and bedding from PetSmart. Find other dog furniture like loungers, ramps, stairs, and more!', 'mail': None}, {'title': 'Dog Bed - Casper', 'website': 'https://casper.com/dog-beds/', 'description': "The Casper Dog Bed rewards your loyal companion the best night's sleep. Our dog ... *Select products ineligible for free shipping where indicated. Additional\xa0...", 'mail': None}, {'title': 'Best Dog Beds, According to Dog Experts 2020 | The Strategist', 'website': 'https://nymag.com/strategist/article/best-dog-beds-expert-recommendations.html', 'description': "2020年11月6日 — This bed isn't cheap, but both Lippman and Askeland recommend it and say you're better off investing in high-quality products from well-known\xa0...", 'mail': None}, {'title': 'Pet Beds | Product categories | Milliard Bedding | The Ultimate ...', 'website': 'https://www.milliardbedding.com/product-category/pet-beds/', 'description': 'Pet Beds. « Previous. 1; 2 · Next ». Showing 1–12 of 13 results. Sort by popularity, Sort by average rating, Sort by latest, Sort by price: low to high, Sort by price:\xa0...', 'mail': None}, {'title': "Dog Beds You'll Love in 2020 | Wayfair", 'website': 'https://www.wayfair.com/pet/cat/dog-beds-c409475.html', 'description': 'Find Dog Beds at Wayfair. Enjoy Free Shipping & browse our great selection of heated dog beds, dog pads, dog cots and orthopedic dog beds. ... Dog Bed Covers & Accessories ... Bagel Bolster. by Majestic Pet Products. from $38.42$74.00.', 'mail': None}]
+********************************
+运行时间: 9.452367782592773
+https://www.resale.info/en/CML/Multi-blade-saws/kat-1259/
+++++++++++
+0
+10
+20
+2
+[('info@highsnobiety.com', 1), ('website@eamtm.com', 1)]
+pet bedding products 3
+https://www.google.com/search?q=pet%20bedding%20products&start=20
+10 [<Element div at 0x7faab4209320>, <Element div at 0x7faab4209960>, <Element div at 0x7faab4209c30>, <Element div at 0x7faab4d04640>, <Element div at 0x7faab4c957d0>, <Element div at 0x7faab4df9e60>, <Element div at 0x7faab448f1e0>, <Element div at 0x7faab41a2fa0>, <Element div at 0x7faab41a2960>, <Element div at 0x7faab4421280>]
+https://www.heb.com/category/shop/pets/dogs/beds/490131/490617
+https://www.mollymutt.com/
+facemask kn95 15
+https://www.etsy.com/c/pet-supplies/pet-bedding
+https://www.surroundewe.com/WoolsHealthBenefits/ComfortForPets
+https://www.homedepot.com/b/Outdoors-Pet-Supplies-Wildlife-Dog-Supplies-Dog-Furniture-Dog-Beds-Pillows/N-5yc1vZc4ua
+https://snoozerpetproducts.com/
+https://www.armandhammer.com/articles/how-to-wash-pet-bedding
+https://www.bedbathhome.com/buy/pet-bedding
+https://www.bedbathandbeyond.com/store/s/animal-bedding-sets
+https://www.walmart.com/browse/pets/small-animal-bedding-litter/kaytee/5440_1001299_1393323/YnJhbmQ6S2F5dGVl
+https://www.google.com/search?q=facemask%20kn95&start=140
+10 [<Element div at 0x7faab446c550>, <Element div at 0x7faab446c640>, <Element div at 0x7faab41650a0>, <Element div at 0x7faab4165140>, <Element div at 0x7faab4dac230>, <Element div at 0x7faab4dac0f0>, <Element div at 0x7faab4dacfa0>, <Element div at 0x7faab4ccedc0>, <Element div at 0x7faab4cce8c0>, <Element div at 0x7faab4cce780>]
+http://gspromosource.com/ProductResults/?SearchTerms=kn95+face+mask
+********************************
+[{'title': 'Dog Beds | Shop Quality Dog Bedding | HEB.com', 'website': 'https://www.heb.com/category/shop/pets/dogs/beds/490131/490617', 'description': 'Petmate Burnished Red Rectangular Lounger Pet Bed, EACH. $22.23 each ... Precision Pet Products Snoozzy Ikat Clamshell 19 in Bed, EACH. $19.27 each.', 'mail': None}, {'title': 'Molly Mutt makes The Dog Bed Dogs Love™, plus stylish ...', 'website': 'https://www.mollymutt.com/', 'description': 'Gorgeous, washable dog beds and crate accessories with sustainable designs. We use 100% ... Get the latest updates on new products and upcoming sales.', 'mail': None}, {'title': 'Pet Bedding | Etsy', 'website': 'https://www.etsy.com/c/pet-supplies/pet-bedding', 'description': 'Check out our pet bedding selection for the very best in unique or custom, handmade pieces from our shops.', 'mail': None}, {'title': 'Comfort for your Pets with ECO-Pure Wool Pet Bedding ...', 'website': 'https://www.surroundewe.com/WoolsHealthBenefits/ComfortForPets', 'description': 'Available in 4 sizes, buy your organic pet bed from The Wool Bed Company ... There are a wide range of products available to accommodate every member of\xa0...', 'mail': None}, {'title': 'Dog Beds & Pillows - Dog Furniture - The Home Depot', 'website': 'https://www.homedepot.com/b/Outdoors-Pet-Supplies-Wildlife-Dog-Supplies-Dog-Furniture-Dog-Beds-Pillows/N-5yc1vZc4ua', 'description': 'The top-selling dog beds & pillows product is the PAW Extra Large Tan Orthopedic Memory Foam Pet Bed with Bolster. How much do dog beds & pillows cost?', 'mail': None}, {'title': 'Snoozer Pet Products', 'website': 'https://snoozerpetproducts.com/', 'description': 'The Official Snoozer Pet Products Website. Manufacturer of Dog Beds, Dog Car Seats, Dog Carriers and Dog Sofas for 20+ ... Finding the Right Size Dog Bed.', 'mail': None}, {'title': 'How to Wash Pet Bedding | Arm & Hammer', 'website': 'https://www.armandhammer.com/articles/how-to-wash-pet-bedding', 'description': 'Learn how to wash dog beds and other pet bedding to help banish stinky dog smell with ARM & HAMMER™ Odor Blasters laundry detergent products.', 'mail': None}, {'title': 'Pet Bedding | Dog Beds | Quality Pet Products | Arlee Pet ...', 'website': 'https://www.bedbathhome.com/buy/pet-bedding', 'description': "Quality that your pet will love...at a price that can't be beat! 24 items/page, 48 items/page, View All. Go. Sort By… Newest, Best Selling, Name Ascending, Name\xa0...", 'mail': None}, {'title': 'Animal Bedding Sets | Bed Bath & Beyond', 'website': 'https://www.bedbathandbeyond.com/store/s/animal-bedding-sets', 'description': "Products 1 - 24 of 483 — Shop for animal bedding sets at Bed Bath & Beyond. Buy top selling products like Cheetah 3-Piece Plush Comforter Set and carter's®\xa0...", 'mail': None}, {'title': 'Kaytee Small Animal Bedding & Litter - Walmart.com', 'website': 'https://www.walmart.com/browse/pets/small-animal-bedding-litter/kaytee/5440_1001299_1393323/YnJhbmQ6S2F5dGVl', 'description': 'Kaytee Small Animal Bedding & Litter. 1 - 401 to 40 of 104 products. Refine by. |. Price. Top Brands. Store Availability. Sort by. |. Best Sellers, Price: low to high\xa0...', 'mail': None}][30/Nov/2020 16:04:18] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=3 HTTP/1.1" 200 4651
+[30/Nov/2020 16:04:21] "GET /getweb/?engine=google&kw=facemask%20kn95&num=15 HTTP/1.1" 200 5199
+[30/Nov/2020 16:04:23] "GET /getmail/?website=https://www.janmorganmedia.com/2020/06/15/global-polypropylene-monofilament-filter-cloth-market-market-us-mm/ HTTP/1.1" 200 17
+[30/Nov/2020 16:05:00] "GET /getmail/?website=https://www.tradeindia.com/manufacturers/rip-saw-machine.html HTTP/1.1" 200 4
+[30/Nov/2020 16:05:15] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=4 HTTP/1.1" 301 0
+
+********************************
+https://www.janmorganmedia.com/2020/06/15/global-polypropylene-monofilament-filter-cloth-market-market-us-mm/
+++++++++++
+https://www.toolnut.com/bd-brand-kn95-disposable-mask-20-pack-in-stock.html
+https://www.adaptivespecialties.com/kn95-fda-and-ce-certified-general-use-protective-face-masks---free-shipping.aspx
+运行时间: 10.348928451538086
+https://www.caravancanopy.com/custom-kn95-face-mask/
+https://www.danleemedical.com/KN95-Folding-Style-Safety-Face-Mask-KN95-P4061.aspx
+https://www.adorama.com/gxrsakn95.html
+https://www.officespaceli.com/office-store/New-5-PCS-95-CERTIFIED-KN95-FACE-MASK-p188202718
+https://cincinnatiminutemanpress.com/product/supplies-ppe-face-mask-kn95
+https://www.menshealth.com/health/a34247889/n95-vs-kn95-masks-covid/
+https://www.ussmokeandfirecurtain.com/products/personal-protective-equipment/kn95-face-mask.html
+********************************
+[{'title': 'KN95 Face Mask - Product Results - GS Promo Source LLC', 'website': 'http://gspromosource.com/ProductResults/?SearchTerms=kn95+face+mask', 'description': 'Stay safe and healthy by donning one of our KN95 face masks! Measuring 6" x 4", each white adult face mask features 5 layers of protection and is designed for\xa0...', 'mail': 'info@gspromosource.com;kfeeney@gspromosource.com;mail@choptankkennels.com'}, {'title': 'IN STOCK! KN95 Certified Disposable Masks, 20-Pack', 'website': 'https://www.toolnut.com/bd-brand-kn95-disposable-mask-20-pack-in-stock.html', 'description': 'N95 masks have marginally better requirements for breathability. With regard to filtration specifications, N95 and KN95 respirator masks are the same. Both masks\xa0...', 'mail': 'info@toolnut.com;peter@toolnut.Com;shane@toolnut.com'}, {'title': 'KN95 FDA & CE Certified General Use Protective Face Masks ...', 'website': 'https://www.adaptivespecialties.com/kn95-fda-and-ce-certified-general-use-protective-face-masks---free-shipping.aspx', 'description': 'FDA and CE approved KN95 General Use facemasks. Free Shipping on KN95 Protection Facemasks. Available with 4 filtering layers include melt-blown cloth\xa0...', 'mail': None}, {'title': 'CUSTOM KN95 FACE MASK * Caravan Canopy', 'website': 'https://www.caravancanopy.com/custom-kn95-face-mask/', 'description': "Caravan's KN95 Face Mask is a disposable particulate respirator that helps reduce the number of airborne particles you breathe. Customize with your brand or\xa0...", 'mail': None}, {'title': 'KN95 Folding Style Safety Face Mask #KN95 - Danlee Medical', 'website': 'https://www.danleemedical.com/KN95-Folding-Style-Safety-Face-Mask-KN95-P4061.aspx', 'description': 'KN95 Folding Style Safety Face Mask #KN95. (sold by the box or bag). Suitable for respiratory protection, filtering dust, haze, bacteria, droplets and other\xa0...', 'mail': 'john@yahoo.com;joni@danleemedical.com;info@danleemedical.com'}, {'title': 'KN95 Protective Face Masks (10-Pack) GX-RSA-KN95 ...', 'website': 'https://www.adorama.com/gxrsakn95.html', 'description': "KN95 is the Chinese rating that's similar to the NOSH N95. They don't hold a static charge very well so they are not effective in protecting yourself but they are\xa0...", 'mail': None}, {'title': 'New 5 PCS 95-CERTIFIED KN95 FACE-MASK N95 Face ...', 'website': 'https://www.officespaceli.com/office-store/New-5-PCS-95-CERTIFIED-KN95-FACE-MASK-p188202718', 'description': 'New pack of 5 face mask certified KN95 surgical mask. Protect yourself for Coronavirus, Covid19. The government recommends wearing a mask in public while\xa0...', 'mail': None}, {'title': 'SUPPLIES - PPE Face Mask KN95 - Minuteman Press', 'website': 'https://cincinnatiminutemanpress.com/product/supplies-ppe-face-mask-kn95', 'description': 'NOTE: KN95 is NOT FDA Certified N95. Please visit FDA.gov for more information. PERSONAL PROTECTIVE EQUIPMENT (PPE) SUPPLIES Face masks are\xa0...', 'mail': 'westchester@minutemanpress.com;amandahayward@daycommedia.com'}, {'title': 'N95 vs KN95 Masks for COVID-19 and the Difference ...', 'website': 'https://www.menshealth.com/health/a34247889/n95-vs-kn95-masks-covid/', 'description': "2020年10月2日 — What makes N95 and KN95 masks are still considered the gold standard of protection from the coronavirus COVID-19. Here's why they are\xa0...", 'mail': 'editor@jomh.org'}, {'title': 'KN95 Face Mask - U.S. Smoke & Fire - US Smoke and Fire', 'website': 'https://www.ussmokeandfirecurtain.com/products/personal-protective-equipment/kn95-face-mask.html', 'description': 'Professional KN95 Protective Masks. KN95 Face Mask - U.S. Smoke & Fire - Screen_Shot_2020-06-11_at_9 KN95 provide 95% filter performance from dust,\xa0...', 'mail': 'firecurtains@mail.com'}]
+********************************
+运行时间: 8.93079924583435
+https://www.tradeindia.com/manufacturers/rip-saw-machine.html
+++++++++++
+0
+10
+20
+0
+[]
+pet bedding products 4
+https://www.google.com/search?q=pet%20bedding%20products&start=30
+10 [<Element div at 0x7faab4f5fe60>, <Element div at 0x7faab4f5ff50>, <Element div at 0x7faab41b9c80>, <Element div at 0x7faab4d88a00>, <Element div at 0x7faab4cf13c0>, <Element div at 0x7faab445cd20>, <Element div at 0x7faab4ddfd70>, <Element div at 0x7faab4ddf280>, <Element div at 0x7faab4cb8910>, <Element div at 0x7faab4cb8be0>]
+https://www.sears.com/pet-supplies-small-animal-supplies-bedding-litter/b-1030111?Brand=Kaytee%20Pet%20Products&filterList=Brand
+pass!!!!
+https://www.overstock.com/guides/how-to-choose-a-pet-bed-for-an-older-dog
+pass!!!!
+https://www.thecompanystore.com/pets
+https://oleyhemp.com/products/oh-pet-bedding
+http://dutch.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth
+++++++++++
+http://nep-co.com/pet-bedding/
+https://earthhero.com/products/pet-supplies/hemptique-hemp-animal-bedding/
+https://www.pestell.com/pet/animal-bedding/
+https://www.orvis.com/dog-beds
+https://www.petsupermarket.com/natural-small-pet-bedding/product/SCM01044
+https://www.brindlepets.com/
+********************************
+[{'title': 'Pets - The Company Store', 'website': 'https://www.thecompanystore.com/pets', 'description': 'Results 1 - 21 of 21 — Rectangular Dog Bed Cover - Plaid. Cyber Monday Special: 40% Off! (Excluded from sitewide discount). $45.00.', 'mail': None}, {'title': 'OH! Pet Bedding – OleyHemp', 'website': 'https://oleyhemp.com/products/oh-pet-bedding', 'description': '... the perfect bedding material for rabbits, hamsters, guinea pigs, bearded dragons, rats, snakes, pet rocks, mice, birds, and other small animals. Hemp Products.', 'mail': None}, {'title': 'Our Complete Line of Pet Bedding and Cat Litter Products', 'website': 'http://nep-co.com/pet-bedding/', 'description': "NEPCO's pet bedding is the number one choice for environmentally conscious, animal-oriented pet owners, animal breeders, veterinarians around the world.", 'mail': None}, {'title': 'Hemp Animal Bedding | Hemptique | Shop Hemp Products at ...', 'website': 'https://earthhero.com/products/pet-supplies/hemptique-hemp-animal-bedding/', 'description': 'Check out the sustainable features of the Hemp Animal Bedding by Hemptique! Brouse our selection of eco-friendly products on EarthHero.com.', 'mail': None}, {'title': 'Small Animal Bedding & Equine Bedding | Pestell Pet Products', 'website': 'https://www.pestell.com/pet/animal-bedding/', 'description': 'We Deal In Pet Comfort.', 'mail': None}, {'title': 'Dog Beds - Memory Foam, Toughchew, & Bolster Beds | Orvis', 'website': 'https://www.orvis.com/dog-beds', 'description': 'Dog bed fill options include supportive foam and cushy spun polyester fill. Dogs who dig to settle in may enjoy the satisfying plush feel of ComfortFill-Eco™, while\xa0...', 'mail': None}, {'title': 'Natural Small Pet Bedding - Pet Supermarket', 'website': 'https://www.petsupermarket.com/natural-small-pet-bedding/product/SCM01044', 'description': 'Product Description. Only carefresh is made from scratch with pillowy soft, ultra-absorbent comfyfluff designed specifically for small pets. Made from 100%\xa0...', 'mail': None}, {'title': 'Brindle Pet Products', 'website': 'https://www.brindlepets.com/', 'description': 'orthopedic dog bed. Brindle Pet Products is the result of a need for dependable, innovative, high-quality pet products in a market saturated with cheap,\xa0...', 'mail': None}][30/Nov/2020 16:05:23] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=4 HTTP/1.1" 200 3480
+[30/Nov/2020 16:05:26] "GET /getmail/?website=http://dutch.screenprintingfabricmesh.com/best-1576-monofilament-filter-cloth HTTP/1.1" 200 4
+[30/Nov/2020 16:05:43] "GET /getmail/?website=https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/ HTTP/1.1" 200 18
+[30/Nov/2020 16:06:07] "GET /getweb?engine=google&kw=Auto%20parts%20production&num=0 HTTP/1.1" 301 0
+[30/Nov/2020 16:06:11] "GET /getweb?engine=google&kw=rubber%20%20hose&num=36 HTTP/1.1" 301 0
+[30/Nov/2020 16:06:12] "GET /getweb/?engine=google&kw=Auto%20parts%20production&num=0 HTTP/1.1" 200 24
+[30/Nov/2020 16:06:12] "GET /getweb?engine=google&kw=Auto%20parts%20production&num=1 HTTP/1.1" 301 0
+[30/Nov/2020 16:06:19] "GET /getweb/?engine=google&kw=rubber%20%20hose&num=36 HTTP/1.1" 200 145
+[30/Nov/2020 16:06:22] "GET /getweb/?engine=google&kw=Auto%20parts%20production&num=1 HTTP/1.1" 200 4678
+[30/Nov/2020 16:06:28] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=5 HTTP/1.1" 301 0
+[30/Nov/2020 16:06:31] "GET /getweb?engine=google&kw=Plastic%20parts&num=17 HTTP/1.1" 301 0
+
+********************************
+运行时间: 7.860086917877197
+0
+10
+20
+0
+[]
+https://www.exapro.com/wood-machines-saws-multi-blade-saws-c419/
+++++++++++
+0
+10
+20
+1
+[('maquinas@gmail.com', 1)]
+Auto parts production 0
+rubber  hose 36
+Auto parts production 1
+https://www.google.com/search?q=Auto%20parts%20production&start=0
+9 [<Element div at 0x7faab4d5ff00>, <Element div at 0x7faab4d5f0f0>, <Element div at 0x7faab4d5fdc0>, <Element div at 0x7faab4ce5320>, <Element div at 0x7faab4dac1e0>, <Element div at 0x7faab4dac190>, <Element div at 0x7faab41a1d20>, <Element div at 0x7faab4d17500>, <Element div at 0x7faab4d2ec80>]
+https://www.ibisworld.com/united-states/market-research-reports/auto-parts-manufacturing-industry/
+https://www.mcrsafety.com/en/industry/automotive/parts-manufacturing
+https://www.dnb.com/business-directory/industry-analysis.automobile-parts-manufacturing.html
+https://www.google.com/search?q=rubber%20%20hose&start=350
+0 []
+********************************
+[]
+********************************
+http://www.firstresearch.com/Industry-Research/Automobile-Parts-Manufacturing.html
+运行时间: 5.791711807250977
+https://collegegrad.com/industries/motor-vehicle-and-parts-manufacturing
+https://tippie.uiowa.edu/sites/tippie.uiowa.edu/files/documents/henry_ben_auto.pdf
+https://www.bizvibe.com/blog/automobiles/top-10-auto-parts-manufacturers-us
+https://www.vikingmergers.com/blog/2016/4-steps-selling-auto-parts-manufacturing-firm/
+http://www.madehow.com/Volume-1/Automobile.html
+********************************
+[{'title': 'Auto Parts Manufacturing in the US - Industry Data, Trends ...', 'website': 'https://www.ibisworld.com/united-states/market-research-reports/auto-parts-manufacturing-industry/', 'description': '2020年9月25日 — Auto Parts Manufacturing industry operators manufacture various items, including exhaust systems and airbags, as well as heating, ventilation and air conditioning systems. Exports of products such as these have seen an average annual decline of 13.7% to just $8.4 billion over the five years to 2020.', 'mail': None}, {'title': 'Parts Manufacturing | MCR Safety', 'website': 'https://www.mcrsafety.com/en/industry/automotive/parts-manufacturing', 'description': 'The automotive parts manufacturing industry includes those companies primarily engaged in manufacturing motor vehicle\xa0...', 'mail': None}, {'title': 'Research Automobile Parts Manufacturing Companies ...', 'website': 'https://www.dnb.com/business-directory/industry-analysis.automobile-parts-manufacturing.html', 'description': 'Geographic Segmentation. See where the Automobile Parts Manufacturing industry is concentrated geographically and research companies by financials and key\xa0...', 'mail': None}, {'title': 'Automobile Parts Manufacturing Industry Profile from First ...', 'website': 'http://www.firstresearch.com/Industry-Research/Automobile-Parts-Manufacturing.html', 'description': '2020年10月26日 — Companies in this industry manufacture automobile parts, including transmission and power train components, engines and engine parts, body\xa0...', 'mail': None}, {'title': 'Motor Vehicle and Parts Manufacturing Industries: Career ...', 'website': 'https://collegegrad.com/industries/motor-vehicle-and-parts-manufacturing', 'description': 'The motor vehicles manufactured in this industry include automobiles, sport-utility vehicles (SUVs), vans and pickup trucks, heavy duty trucks, buses, truck trailers,\xa0...', 'mail': None}, {'title': 'Auto Parts & Equipment Manufacturing Industry - Tippie ...', 'website': 'https://tippie.uiowa.edu/sites/tippie.uiowa.edu/files/documents/henry_ben_auto.pdf', 'description': '2016年2月9日 — Companies in the Auto Parts & Equipment industry manufacture components and modules that are ultimately to be included in the production of\xa0...', 'mail': None}, {'title': 'Top 10 Auto Parts Manufacturers in the US 2020 - BizVibe', 'website': 'https://www.bizvibe.com/blog/automobiles/top-10-auto-parts-manufacturers-us', 'description': '2020年6月5日 — Dana Inc. · Lear · Tenneco · BorgWarner · Visteon · American Axle & Manufacturing · Goodyear Tire and Rubber Company · Cooper Tire & Rubber\xa0...', 'mail': None}, {'title': '4 Steps to Selling Your Auto Parts Manufacturing Firm - Viking ...', 'website': 'https://www.vikingmergers.com/blog/2016/4-steps-selling-auto-parts-manufacturing-firm/', 'description': '2016年8月30日 — Automotive services encompass a variety of subsectors, including everything from car manufacturing to windshield repair to lube and oil shops.', 'mail': None}, {'title': 'How automobile is made - production process, manufacture ...', 'website': 'http://www.madehow.com/Volume-1/Automobile.html', 'description': "In 1908 Henry Ford began production of the Model T automobile. ... Ford's innovative design reduced the number of parts needed as well as the number of\xa0...", 'mail': None}]
+********************************
+运行时间: 9.397398710250854
+pet bedding products 5
+Plastic parts 17
+https://www.google.com/search?q=pet%20bedding%20products&start=40
+10 [<Element div at 0x7faab4cbb910>, <Element div at 0x7faab448f6e0>, <Element div at 0x7faab448f820>, <Element div at 0x7faab419a870>, <Element div at 0x7faab419a9b0>, <Element div at 0x7faab419acd0>, <Element div at 0x7faab419afa0>, <Element div at 0x7faab419ae60>, <Element div at 0x7faab419a4b0>, <Element div at 0x7faab419ab40>]
+https://www.nbcnews.com/shopping/pets/best-dog-beds-n1221016
+https://www.petsupermarket.com/natural-small-pet-bedding/product/SCM01044
+https://www.wish.com/product/3d-animal-bedding-set-red-lovely-dog-pattern-comforter-bedclothes-duvet-cover-set-comforter-bedding-sets-5afaa4b5b8f1aa196dd0e625
+https://www.petmate.com/dogs/dog-bedding/category/L1-beddingL2-dog-beds
+https://www.rover.com/blog/the-best-dog-proof-bedding/
+https://carolinapetcompany.com/
+https://www.google.com/search?q=Plastic%20parts&start=160
+10 [<Element div at 0x7faab4dcfdc0>, <Element div at 0x7faab4dcff50>, <Element div at 0x7faab418e7d0>, <Element div at 0x7faab418e410>, <Element div at 0x7faab418efa0>, <Element div at 0x7faab4194410>, <Element div at 0x7faab4194c80>, <Element div at 0x7faab4f64780>, <Element div at 0x7faab4f640a0>, <Element div at 0x7faab4f64050>]
+https://www.obzorzlin.com/services/injection-moulding/production-plastic-parts
+https://northamericanpet.com/products/dog/dog-bedding/
+https://www.visionbedding.com/bedding/dog
+https://knaufautomotive.com/products/injection-molded-components/
+https://www.dupont.com/products/delrin.html
+https://puplifetoday.com/best-dog-beds/
+https://turbofuture.com/industrial/PVC-Polypropylene-and-Polyethylene-How-Plastics-are-Used-in-the-Home
+https://www.jrs.eu/jrs_en/consumer-products/private-label/pet-bedding.php
+http://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c05228340
+********************************
+[{'title': 'The best dog beds of 2020, according to experts - NBC News', 'website': 'https://www.nbcnews.com/shopping/pets/best-dog-beds-n1221016', 'description': '2020年9月25日 — Getting a dog bed is by no means necessary or critical for most dogs. "I\'m not sure ... K&H Pet Products Self-Warming Lounge Sleeper Pet Bed.', 'mail': None}, {'title': 'Natural Small Pet Bedding - Pet Supermarket', 'website': 'https://www.petsupermarket.com/natural-small-pet-bedding/product/SCM01044', 'description': 'Product Description. Only carefresh is made from scratch with pillowy soft, ultra-absorbent comfyfluff designed specifically for small pets. Made from 100%\xa0...', 'mail': None}, {'title': '3D Animal Bedding Set RED Lovely Dog Pattern Comforter ...', 'website': 'https://www.wish.com/product/3d-animal-bedding-set-red-lovely-dog-pattern-comforter-bedclothes-duvet-cover-set-comforter-bedding-sets-5afaa4b5b8f1aa196dd0e625', 'description': 'Buy 3D Animal Bedding Set RED Lovely Dog Pattern Comforter Bedclothes Duvet Cover Set Comforter Bedding Sets at Wish - Shopping Made Fun.', 'mail': None}, {'title': 'BEST Dog Bedding for All Dog Sizes - Petmate', 'website': 'https://www.petmate.com/dogs/dog-bedding/category/L1-beddingL2-dog-beds', 'description': "By purchasing a bed for your dog, you're helping prevent health related issues like arthritis, calluses, or back problems in your dog's senior hood. At Petmate, our\xa0...", 'mail': None}, {'title': 'Best Dog Proof Bedding | The Top Dog Hair Resistant Sheets ...', 'website': 'https://www.rover.com/blog/the-best-dog-proof-bedding/', 'description': "2020年3月5日 — If you're wondering how to minimize the wear and tear (and dog hair) on your human bed, this product guide will help you select the best dog\xa0...", 'mail': None}, {'title': 'Carolina Pet Company: Cozy & Comfortable Pet Beds and Pet ...', 'website': 'https://carolinapetcompany.com/', 'description': 'Your pet deserves the best! Carolina Pet Company has the highest quality pet beds and pet products to make sure your animal is comfortable and happy.', 'mail': None}, {'title': 'Dog Bedding | Product categories | North American Pet Products', 'website': 'https://northamericanpet.com/products/dog/dog-bedding/', 'description': 'DOG PRODUCTS. Bedding. BRANDS. Bird Brainers · Bob Cat · Casual Pet · CKO Collection · Rock Garden · Sea Clear · Twiskers · Urban Cat · Home; / Dog\xa0...', 'mail': None}, {'title': 'Dog Bedding Sets - Comforters, Duvets, Sheets - Free ...', 'website': 'https://www.visionbedding.com/bedding/dog', 'description': 'FREE Personalization On all dog Bed Linens- Worlds LARGEST Selection - Custom Soft Fabrics and we even...', 'mail': None}, {'title': 'The 26 Best Dog Beds of 2020 - Pup Life Today', 'website': 'https://puplifetoday.com/best-dog-beds/', 'description': '... Lounge Sleeper Pet Bed ... As a unique product, instead of the inside being\xa0...', 'mail': None}, {'title': 'Pet bedding - JRS', 'website': 'https://www.jrs.eu/jrs_en/consumer-products/private-label/pet-bedding.php', 'description': 'Consumer Products. Consumer Products; BU Pet Care Quality Litter · Private Label. Private Label; Organic Cat Litter · Pet Bedding · Special Products.', 'mail': None}][30/Nov/2020 16:06:38] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=5 HTTP/1.1" 200 4677
+[30/Nov/2020 16:06:39] "GET /getweb/?engine=google&kw=Plastic%20parts&num=17 HTTP/1.1" 200 4864
+[30/Nov/2020 16:07:01] "GET /getweb?engine=google&kw=Auto%20parts%20production&num=2 HTTP/1.1" 301 0
+
+********************************
+http://www.decaturplastics.com/index.html
+https://homak.com/product/small-portable-plastic-parts-organizer/
+运行时间: 9.21074390411377
+https://www.autoblog.com/2016/02/10/how-to-clean-plastic-car-parts/
+https://www.elastoproxy.com/rubber-plastic-truck-parts/
+http://buyplaneparts.com/
+********************************
+[{'title': 'Production of plastic parts | OBZOR Zlín', 'website': 'https://www.obzorzlin.com/services/injection-moulding/production-plastic-parts', 'description': 'Production of plastic parts. Max. part weight: 350g. Max. clamping force: 200t. Manufacturingcconsumer and technical produkts. Used materials:.', 'mail': None}, {'title': 'Injection molded car components - Knauf Industries Automotive', 'website': 'https://knaufautomotive.com/products/injection-molded-components/', 'description': 'Automotive Injection Molded Parts. Knauf Industries Automotive as a plastic injection molding manufacturer and supplier, specializes in thermoplastic injection\xa0...', 'mail': None}, {'title': 'Delrin® Plastic | Acetal Plastic - DuPont', 'website': 'https://www.dupont.com/products/delrin.html', 'description': 'Plastic parts displayed on a table. Delrin® Solutions. 01. DuPont™ Delrin® Acetal Homopolymer Outperforms Acetal Copolymer and Reduces Cost Per Part.', 'mail': None}, {'title': 'Types of Plastics Used in the Home: How to Identify PVC, PET ...', 'website': 'https://turbofuture.com/industrial/PVC-Polypropylene-and-Polyethylene-How-Plastics-are-Used-in-the-Home', 'description': '2020年8月9日 — Most plastic products or their component parts are marked with a plastic identification code symbol specifying the type, allowing ease of\xa0...', 'mail': 'abuse@amazonaws.com;Johnsrisailapu6@gmail.com'}, {'title': '5951-1741-1, Plastic Part Marking Algorithm Standard', 'website': 'http://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c05228340', 'description': '2017年3月15日 — If the part size, geometry, and cosmetic and effective function allow, all plastic parts and products must be physically marked with the appropriate\xa0...', 'mail': None}, {'title': 'Decatur Plastic Products', 'website': 'http://www.decaturplastics.com/index.html', 'description': 'Your full service partner for high quality custom injection molded plastic parts and components, and finishing, assembly and flocking services.', 'mail': None}, {'title': 'Small Portable Plastic Parts Organizer - Homak Manufacturing', 'website': 'https://homak.com/product/small-portable-plastic-parts-organizer/', 'description': 'Bolt-On Plastic Carrying Handle for Easy Transportation Four (4) Transparent, Removable Plastic Boxes for Storage of Small Parts Each Box Secured with Dual\xa0...', 'mail': 'bfleming@homakmfg.com;info@pennohioprostocks.com'}, {'title': 'How to Clean Plastic Car Parts | Autoblog', 'website': 'https://www.autoblog.com/2016/02/10/how-to-clean-plastic-car-parts/', 'description': '2016年2月10日 — Soft-touch plastics for attractive interior finishing; Textured plastic parts. Plastic components can get dirty just like the rest of your vehicle. It could\xa0...', 'mail': None}, {'title': 'Rubber and Plastic Truck Parts - Elasto Proxy', 'website': 'https://www.elastoproxy.com/rubber-plastic-truck-parts/', 'description': '2014年9月8日 — Rubber and plastic truck parts include products for the front end, engine, and cabin such as seals, tubes, hoses, and plexiglas. Learn how to\xa0...', 'mail': None}, {'title': 'TEXAS AEROPLASTICS online at BuyPlaneParts.com ...', 'website': 'http://buyplaneparts.com/', 'description': 'Shop Texas Aeroplastics, Shop Cessna Wing Tips at Texas Aeroplastics, Buyplaneparts.com. Cessna, Piper, Beechcraft Parts, online ordering.', 'mail': 'abuse@web.com;johnabreda@yahoo.com;4dbeepcameym@contactprivacy.email'}]
+********************************
+运行时间: 7.883596181869507
+Auto parts production 2
+https://www.google.com/search?q=Auto%20parts%20production&start=10
+10 [<Element div at 0x7faab4dcfdc0>, <Element div at 0x7faab4dcff50>, <Element div at 0x7faab443e5a0>, <Element div at 0x7faab443ebe0>, <Element div at 0x7faab443e960>, <Element div at 0x7faab443ea00>, <Element div at 0x7faab443e0a0>, <Element div at 0x7faab443ec80>, <Element div at 0x7faab44219b0>, <Element div at 0x7faab44216e0>]
+https://www.youtube.com/watch?v=Ti0u-vNnen8
+pass!!!!
+http://www.homasa.com/content/automotive-parts-manufacturing-the-iran-industry-next-investment-frontier
+https://www.wsj.com/articles/auto-parts-suppliers-teeter-as-car-production-halts-11585828803
+https://www.bls.gov/opub/mlr/2007/10/art2full.pdf
+https://www.encyclopedia.com/manufacturing/encyclopedias-almanacs-transcripts-and-maps/auto-parts
+https://thenewswheel.com/the-basics-of-tooling-and-auto-part-production/
+https://www.tandfonline.com/doi/full/10.1080/13602381.2014.990212
+https://legacy.trade.gov/td/otm/assets/auto/2011Parts.pdf
+https://www.statista.com/chart/20913/chinese-exports-of-motor-vehicle-parts-and-accessories/
+https://www.industryselect.com/blog/fastest-growing-us-auto-parts-manufacturers
+********************************
+[{'title': "Auto Parts Manufacturing: Iran Industry's Next Investment ...", 'website': 'http://www.homasa.com/content/automotive-parts-manufacturing-the-iran-industry-next-investment-frontier', 'description': "Auto Parts Manufacturing: Iran Industry's Next Investment Frontier. Auto PArts. Homasa exclusive: Analysis of Iran Automotive Components Market,. Author: Jalal\xa0...", 'mail': None}, {'title': 'Auto-Parts Suppliers Teeter as Car Production Halts - WSJ', 'website': 'https://www.wsj.com/articles/auto-parts-suppliers-teeter-as-car-production-halts-11585828803', 'description': '2020年4月2日 — Auto-Parts Suppliers Teeter as Car Production Halts. Shutdowns ripple through supply chain, prompting some to consider layoffs, delayed\xa0...', 'mail': None}, {'title': 'The rise and decline of auto parts manufacturing in the Midwest', 'website': 'https://www.bls.gov/opub/mlr/2007/10/art2full.pdf', 'description': "parts production jobs—Michigan, Ohio, and. Indiana—are also located in the Midwest. Between 1992 and 2006, the Midwest's auto parts manufacturing industry\xa0...", 'mail': None}, {'title': 'Auto Parts | Encyclopedia.com', 'website': 'https://www.encyclopedia.com/manufacturing/encyclopedias-almanacs-transcripts-and-maps/auto-parts', 'description': '2020年10月13日 — Auto PartsINDUSTRIAL CODESNAICS: 33-6310 Motor Vehicle Gasoline Engine and Engine Parts Manufacturing, 33-6311 Carburetor, Piston,\xa0...', 'mail': None}, {'title': 'The Basics of Tooling and Auto Part Production - The News ...', 'website': 'https://thenewswheel.com/the-basics-of-tooling-and-auto-part-production/', 'description': 'So, in the car industry, tooling has to do with specifically designed tools that automakers use to forge vehicle ...', 'mail': None}, {'title': 'Auto and car parts production: can the Philippines catch up ...', 'website': 'https://www.tandfonline.com/doi/full/10.1080/13602381.2014.990212', 'description': "2015年1月19日 — The last question is relevant in light of the bold production targets outlined by the auto industry in the 'Philippine Automotive Manufacturing\xa0...", 'mail': None}, {'title': 'Automotive Parts Industry Annual Assessment, 2011', 'website': 'https://legacy.trade.gov/td/otm/assets/auto/2011Parts.pdf', 'description': 'Chart 1: GDP, Manufacturing Shipments, and Auto Parts Shipments ... automotive parts production declined deeper than total vehicle sales because consumers.', 'mail': None}, {'title': '• Chart: U.S. Car Industry Most Reliant on Chinese Parts ...', 'website': 'https://www.statista.com/chart/20913/chinese-exports-of-motor-vehicle-parts-and-accessories/', 'description': "2020年2月21日 — Not only will Chinese production suffer a significant hit due to ... China is among the world's largest suppliers of car parts, exporting motor\xa0...", 'mail': None}, {'title': 'Fastest-Growing US Auto Parts Manufacturers - IndustrySelect', 'website': 'https://www.industryselect.com/blog/fastest-growing-us-auto-parts-manufacturers', 'description': '2019年6月14日 — ... create localized manufacturing facilities, growth has been strong in the auto parts industry despite indicators that the opposite would be true.', 'mail': None}][30/Nov/2020 16:07:11] "GET /getweb/?engine=google&kw=Auto%20parts%20production&num=2 HTTP/1.1" 200 4508
+[30/Nov/2020 16:07:35] "GET /getweb?engine=google&kw=pet%20bedding%20products&num=6 HTTP/1.1" 301 0
+[30/Nov/2020 16:07:38] "GET /getweb?engine=google&kw=Auto%20parts%20production&num=3 HTTP/1.1" 301 0
+[30/Nov/2020 16:07:44] "GET /getweb/?engine=google&kw=pet%20bedding%20products&num=6 HTTP/1.1" 200 4390
+
+********************************
+运行时间: 8.860025644302368
+pet bedding products 6
+Auto parts production 3
+https://www.google.com/search?q=pet%20bedding%20products&start=50
+10 [<Element div at 0x7faab41d4640>, <Element div at 0x7faab4cedc30>, <Element div at 0x7faab4d780f0>, <Element div at 0x7faab4d78b90>, <Element div at 0x7faab4d78f50>, <Element div at 0x7faab4d784b0>, <Element div at 0x7faab4d78960>, <Element div at 0x7faab4d78d70>, <Element div at 0x7faab4d78460>, <Element div at 0x7faab4d78dc0>]
+http://www.petdreams.com/
+https://kuranda.com/
+https://www.cedarcide.com/product/pet-bedding-spray/
+https://www.majesticpet.com/
+https://www.mrwags.com/-Pet-Bedding_c_77.html
+https://www.furhaven.com/
+https://www.google.com/search?q=Auto%20parts%20production&start=20
+10 [<Element div at 0x7faab4157a50>, <Element div at 0x7faab4157aa0>, <Element div at 0x7faab41572d0>, <Element div at 0x7faab4157cd0>, <Element div at 0x7faab4157280>, <Element div at 0x7faab41570a0>, <Element div at 0x7faab41576e0>, <Element div at 0x7faab4157be0>, <Element div at 0x7faab4157af0>, <Element div at 0x7faab4157c80>]
+https://www.usitc.gov/publications/332/working_papers/id-19-060_chinese_auto_parts_final_080519-compliant_0.pdf
+https://www.sumitomocorp.com/en/us/business/case/group/30688
+https://khpet.com/
+https://kingkanine.com/products/king-klean-pet-bed-spray
+https://doi.org/10.1080/13602381.2014.990212
+https://www.forbes.com/sites/forbes-personal-shopper/2020/08/07/best-dog-beds/
+https://petonbed.com/best-dog-bed/
+https://www.epi.org/publication/bp336-us-china-auto-parts-industry/
+********************************
+[{'title': 'Pet Dreams: Dog Beds, Crate Covers, Crate Pads & Crate Beds', 'website': 'http://www.petdreams.com/', 'description': 'Stylish, discounted dog beds, pads, crate covers and crate beds for small, medium & large dogs. ... Crate Bedding Sets · Classic Double Door Cratewear Set.', 'mail': None}, {'title': 'Kuranda Dog Beds® | Chew Proof Dog Beds', 'website': 'https://kuranda.com/', 'description': "This is how we are able to constantly evolve our products based on customer needs and it's how we can help you find the best bed for your dog.", 'mail': None}, {'title': 'Bye-Bye Dog Smell | Pet & Bedding Spray with Natural ...', 'website': 'https://www.cedarcide.com/product/pet-bedding-spray/', 'description': 'The all new Cedarcide Pet & Bedding spray is a safe alternative to artificial fragrances and deodorizers ...', 'mail': None}, {'title': 'Majestic Pet: Pet Beds, Pet Stairs, Cat Trees, Pet Products', 'website': 'https://www.majesticpet.com/', 'description': 'Based in Irvine, CA, Majestic Pet Products, Inc. is a leading pet products manufacturer. Home of the orignal Bagel Pet Bed. Build-Your-Own Custom Pet Beds.', 'mail': None}, {'title': '* Pet Bedding - Mr. Wags', 'website': 'https://www.mrwags.com/-Pet-Bedding_c_77.html', 'description': "Where you'll find the BEST American made pet products. Call Us Today @ 865-386-3141. My Account: Log In · Home · My Account · Contact Us · Terms and\xa0...", 'mail': None}, {'title': 'FurHaven Pet Products', 'website': 'https://www.furhaven.com/', 'description': "Furhaven's goal is the comfort of your pet at a price you can afford. Shop our site for the latest and greatest in dog or cat bed styles and pet accessories!", 'mail': None}, {'title': 'K&H Pet Products', 'website': 'https://khpet.com/', 'description': 'Find the largest selection of heated / cooled dog & cat beds. Shop warming ... Dog Products. Find the ... K&H Superior Orthopedic Bed Mocha/Pawbone. Sale\xa0...', 'mail': None}, {'title': 'Pet Bedding Spray: King Klean Natural Dog & Cat Bedding ...', 'website': 'https://kingkanine.com/products/king-klean-pet-bed-spray', 'description': 'All products are cruelty-free and tested for quality and safety by independent laboratories. Directions for Use: Shake well. Spray on the area you want to freshen up\xa0...', 'mail': None}, {'title': 'The Best Dog Beds, According To Online Reviewers - Forbes', 'website': 'https://www.forbes.com/sites/forbes-personal-shopper/2020/08/07/best-dog-beds/', 'description': '2020年8月7日 — K&H Pet Products Original Pet Cot Elevated Dog Bed. $39$54SAVE $15 (28%). BUY FROM AMAZON. Despite what some companies may\xa0...', 'mail': None}, {'title': 'The 7 Best-Rated Dog Beds - Reviews and ... - Pet On Bed', 'website': 'https://petonbed.com/best-dog-bed/', 'description': 'Not only does it offer orthopedic support for dogs of all sizes, but the brand adds that this product is chemical-free.', 'mail': None}]
+********************************
+https://www.indeed.com/q-Auto-Parts-Manufacturing-jobs.html
+运行时间: 7.953085899353027
+https://www.privacyshield.gov/article?id=Mexico-Automotive-Parts-and-Supplies
+https://apma.ca/
+https://matchory.com/top-auto-parts-manufacturing-companies
+https://gov.texas.gov/uploads/files/business/auto_parts_directory.pdf
+https://knaufautomotive.com/
+********************************
+[{'title': "China's Growing Role in US Automotive Supply Chains - USITC", 'website': 'https://www.usitc.gov/publications/332/working_papers/id-19-060_chinese_auto_parts_final_080519-compliant_0.pdf', 'description': 'The Chinese auto parts industry has grown rapidly over the last twenty years, initially driven by the expanding Chinese vehicle manufacturing industry. Following\xa0...', 'mail': None}, {'title': 'A group of professionals manufacturing cars and car parts ...', 'website': 'https://www.sumitomocorp.com/en/us/business/case/group/30688', 'description': 'In the automotive business, manufacturing sits in the upstream part of the value chain. Having been engaged in the export of automotive parts and plant\xa0...', 'mail': None}, {'title': 'Auto and car parts production: can the Philippines catch up ...', 'website': 'https://doi.org/10.1080/13602381.2014.990212', 'description': "The last question is relevant in light of the bold production targets outlined by the auto industry in the 'Philippine Automotive Manufacturing Industry Road Map' (\xa0...", 'mail': None}, {'title': 'Jobs in the U.S. auto parts industry are at risk due to ...', 'website': 'https://www.epi.org/publication/bp336-us-china-auto-parts-industry/', 'description': '2012年1月31日 — The motor-vehicle manufacturing sector is the second-largest employer among all U.S. manufacturing industries, and auto parts and tires\xa0...', 'mail': None}, {'title': 'Auto Parts Manufacturing Jobs, Employment | Indeed.com', 'website': 'https://www.indeed.com/q-Auto-Parts-Manufacturing-jobs.html', 'description': '2264 Auto Parts Manufacturing jobs available on Indeed.com. Apply to Warehouse Worker, Order Picker, Shipping and Receiving Clerk and more!', 'mail': None}, {'title': 'Mexico - E. Automotive Parts and Supplies | Privacy Shield', 'website': 'https://www.privacyshield.gov/article?id=Mexico-Automotive-Parts-and-Supplies', 'description': 'Vehicle production levels are forecasted to reach five million units by 2020, given the new players and expanding manufacturing capabilities. Mexico Passenger\xa0...', 'mail': None}, {'title': 'APMA – Lead, Reach, Connect', 'website': 'https://apma.ca/', 'description': "The Automotive Parts Manufacturer's Association (APMA) will operate the ... technology-related training or finding efficiencies in how you produce your product\xa0...", 'mail': None}, {'title': 'Top Auto Parts Manufacturing Companies [List] - Matchory.com', 'website': 'https://matchory.com/top-auto-parts-manufacturing-companies', 'description': 'Top Auto Parts Manufacturing Companies [List] · TOYOTA MOTOR CORPORATION "The Chevrolet nux mighty Multi-effects - : NUX Mad 5 Processor mini electric\xa0...', 'mail': None}, {'title': 'Texas Auto Parts Manufacturing Industry - Office of the Texas ...', 'website': 'https://gov.texas.gov/uploads/files/business/auto_parts_directory.pdf', 'description': 'companies in the Texas automotive parts manufacturing industry. This directory is not a comprehensive source of all automotive parts manufacturers in the state.', 'mail': None}, {'title': 'Knauf Industries Automotive: Auto parts manufacturer', 'website': 'https://knaufautomotive.com/', 'description': 'Learn about our plastic auto components tailor-made to your needs. ... Production of automotive components in Wroclaw - Knauf Automotive. PRODUCTS\xa0...', 'mail': None}][30/Nov/2020 16:07:46] "GET /getweb/?engine=google&kw=Auto%20parts%20production&num=3 HTTP/1.1" 200 4801

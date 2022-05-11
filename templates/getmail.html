@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kw</title>
+</head>
+<body>
+<form action="{% url 'tradeinfo' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="kw">
+    <input type="number" name="num" id="" value="1">
+    <input type="submit">
+</form>
+</body>
+</html>

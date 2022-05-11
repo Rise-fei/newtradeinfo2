@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TxeXFgyCHmSyFRQ9i134gXZRCX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\test" />
+      <recent name="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\spiders" />
+      <recent name="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\ExportIndia" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.newtradeinfo">
+    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gettrademail" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gettrademail/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\test\demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\test\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_face_twitter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\20201130djpro\newtradeinfo\test\test_face_twitter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="newtradeinfo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="newtradeinfo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="newtradeinfo.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\Desktop\newtrade_env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8080" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.newtradeinfo" />
+      <item itemvalue="Python.demo (1)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.test_face_twitter" />
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.test3 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test3 (1)" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test_face_twitter" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="" />
+      <created>1574406211215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574406211215</updated>
+      <workItem from="1574406216724" duration="14585000" />
+      <workItem from="1574658916379" duration="26000" />
+      <workItem from="1574658946708" duration="41000" />
+      <workItem from="1574928931492" duration="1092000" />
+      <workItem from="1575277335963" duration="4052000" />
+      <workItem from="1575362253524" duration="1848000" />
+      <workItem from="1575451906410" duration="1182000" />
+      <workItem from="1575597147001" duration="385000" />
+      <workItem from="1575601895144" duration="3050000" />
+      <workItem from="1575963300850" duration="340000" />
+      <workItem from="1575966453899" duration="666000" />
+      <workItem from="1578300690569" duration="1035000" />
+      <workItem from="1578303929370" duration="2163000" />
+      <workItem from="1578465961259" duration="9408000" />
+      <workItem from="1585017131712" duration="40144000" />
+      <workItem from="1585236714133" duration="2000" />
+      <workItem from="1585271271518" duration="4196000" />
+      <workItem from="1585277250461" duration="2664000" />
+      <workItem from="1585293817412" duration="10244000" />
+      <workItem from="1585304316852" duration="1035000" />
+      <workItem from="1585530102508" duration="31707000" />
+      <workItem from="1585706018670" duration="9620000" />
+      <workItem from="1585822432833" duration="301000" />
+      <workItem from="1606723911351" duration="7310000" />
+      <workItem from="1606785203573" duration="4480000" />
+      <workItem from="1606885435529" duration="1575000" />
+      <workItem from="1606958941057" duration="2121000" />
+      <workItem from="1607481056682" duration="600000" />
+      <workItem from="1607562772941" duration="10478000" />
+      <workItem from="1607648790893" duration="3814000" />
+      <workItem from="1607927888856" duration="5090000" />
+      <workItem from="1607994712719" duration="8538000" />
+      <workItem from="1608097726574" duration="1877000" />
+      <workItem from="1608189170338" duration="899000" />
+      <workItem from="1608253124874" duration="3531000" />
+      <workItem from="1608513246598" duration="892000" />
+      <workItem from="1608599929808" duration="2729000" />
+      <workItem from="1608686495481" duration="7455000" />
+      <workItem from="1608789022043" duration="12150000" />
+      <workItem from="1608858422506" duration="14536000" />
+      <workItem from="1609121846028" duration="17731000" />
+      <workItem from="1609220694980" duration="10741000" />
+      <workItem from="1609308205764" duration="10457000" />
+      <workItem from="1609376645758" duration="5763000" />
+      <workItem from="1609722512028" duration="2641000" />
+      <workItem from="1609808548566" duration="15827000" />
+      <workItem from="1609894943768" duration="8043000" />
+      <workItem from="1610014986491" duration="803000" />
+      <workItem from="1610069331560" duration="618000" />
+      <workItem from="1610358257517" duration="1263000" />
+      <workItem from="1610613736960" duration="6264000" />
+      <workItem from="1610672719133" duration="6868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608002563132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1608002563132" />
+    <state x="711" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609812793298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609812793298" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606785985015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1606785985015" />
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom" timestamp="1610697567709">
+      <screen x="1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
+    <state width="1877" height="485" key="GridCell.Tab.0.center" timestamp="1610697567709">
+      <screen x="1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
+    <state width="1877" height="485" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
+    <state width="1877" height="485" key="GridCell.Tab.0.left" timestamp="1610697567709">
+      <screen x="1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
+    <state width="1877" height="485" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
+    <state width="1877" height="485" key="GridCell.Tab.0.right" timestamp="1610697567709">
+      <screen x="1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1610617369955" />
+    <state width="1877" height="485" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1610697567709" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1609236313828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403745" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1609236313828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403744" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1609236313828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403744" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1609236313828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1609236313828" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-65.1920.1040@1920.-65.1920.1040" timestamp="1609150403745" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1606785774725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1606785774725" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608862428006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-65.1920.1040@0.0.1920.1040" timestamp="1608862428006" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test.py</url>
+          <line>413</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/newtradeinfo$ExportIndia__1_.coverage" NAME="ExportIndia (1) Coverage Results" MODIFIED="1608884475682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$demo.coverage" NAME="demo Coverage Results" MODIFIED="1609145482204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$views.coverage" NAME="views Coverage Results" MODIFIED="1606726387228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gettrademail" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test.coverage" NAME="test Coverage Results" MODIFIED="1609146932430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test_face_twitter.coverage" NAME="test_face_twitter Coverage Results" MODIFIED="1609227859407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1609828124726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test3__1_.coverage" NAME="test3 (1) Coverage Results" MODIFIED="1610696774031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$indiaprofile.coverage" NAME="indiaprofile Coverage Results" MODIFIED="1608800339691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1608796568931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$googlemap.coverage" NAME="googlemap Coverage Results" MODIFIED="1608862133333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/newtradeinfo$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1609819075110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gettrademail" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+Django==3.0.2
+gevent==20.12.1
+greenlet==1.0.0
+asgiref==3.2.3
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.8
+lxml==4.4.2
+mysqlclient==1.4.6
+pytz==2019.3
+requests==2.22.0
+sqlparse==0.3.0
+urllib3==1.25.7
+uWSGI==2.0.19.1
+zope.event==4.5.0
+zope.interface==5.2.0
