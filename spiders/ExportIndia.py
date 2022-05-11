@@ -147,8 +147,7 @@ def Spider_detail(second_url, total_headers, proxies, li, company):
 
 
 def export_europages(keyword, pagenum):
-    proxies = proxies_home
-    #proxies = proxies_data
+    proxies = proxies_data
     ua = random.choice(user_agent_li)
     headers = {
         "User-Agent": ua,
@@ -185,7 +184,6 @@ def export_europages(keyword, pagenum):
 
 def export_yellowpages_ph(keyword, pagenum):
     proxies = proxies_data
-    proxies = proxies_home
     ua = random.choice(user_agent_li)
     headers = {
         "User-Agent": ua,
