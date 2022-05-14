@@ -1925,8 +1925,21 @@ def getAsk(request):
 
 
 def get_mail(request):
+    """
+      1. 获取到的website；经过google 搜索 查询邮箱；
+      2. 若未查询到邮箱，根据已查信息谷歌搜索查询其官网；
+      3. 去其官网查询邮箱信息；
+    :param request:
+    :return:
+    """
     website = request.GET.get('website')
     website = website.strip()
+
+    if "exportersindia" in website:
+        mail_data = "support@exportersindia.com;info@eilgroup.in;sumit@tcspinner.com"
+        return JsonResponse({
+            "mail": mail_data,
+        })
 
     if 'www.' in website:
         newsite = website.split('www.')[1].split('/')[0]
