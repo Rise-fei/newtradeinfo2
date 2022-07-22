@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="">
+    <list default="true" id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detest.py" beforeDir="false" afterPath="$PROJECT_DIR$/detest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_engine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/error_engine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_engine2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/error_engine2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gettrademail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gettrademail/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jjkk.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjkk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llll.py" beforeDir="false" afterPath="$PROJECT_DIR$/llll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new1.py" beforeDir="false" afterPath="$PROJECT_DIR$/new1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newte.py" beforeDir="false" afterPath="$PROJECT_DIR$/newte.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/newtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/ExportIndia.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ExportIndia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sskkss.py" beforeDir="false" afterPath="$PROJECT_DIR$/sskkss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sssskk.py" beforeDir="false" afterPath="$PROJECT_DIR$/sssskk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test222.py" beforeDir="false" afterPath="$PROJECT_DIR$/test222.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -305,6 +297,14 @@
       <workItem from="1652239030149" duration="1777000" />
       <workItem from="1652255515160" duration="9366000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1658513748908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658513748908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +321,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -331,13 +335,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
-          <line>1935</line>
+          <line>1936</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
           <line>979</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
+          <line>1874</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
+          <line>1096</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -748,6 +748,6 @@ with open('aabbcc.html','wb') as f:
     f.write(response.content)
 
 e = etree.HTML(response.text)
-block_list = e.xpath("//div[contains(@class, 'g')]")
+block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
 print(len(block_list))
 
