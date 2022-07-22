@@ -977,8 +977,8 @@ def google_spider(url):
     # print(proxy_list)
     block_list = []
     for proxies in proxy_list:
-        # resp = r.get(url, proxies=proxies[0], headers={"User-Agent": random.choice(headers_li), })
-        resp = r.get(url, proxies={}, headers={"User-Agent": random.choice(headers_li), })
+        resp = r.get(url, proxies=proxies[0], headers={"User-Agent": random.choice(headers_li), })
+        # resp = r.get(url, proxies={}, headers={"User-Agent": random.choice(headers_li), })
         with open("a.html", 'wb') as f:
             f.write(resp.content)
         e = etree.HTML(resp.text)
