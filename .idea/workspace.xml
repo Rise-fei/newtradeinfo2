@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="53b72d57-c766-4537-b676-847c60bbe49b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detest.py" beforeDir="false" afterPath="$PROJECT_DIR$/detest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gettrademail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gettrademail/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjkk.py" beforeDir="false" afterPath="$PROJECT_DIR$/jjkk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llll.py" beforeDir="false" afterPath="$PROJECT_DIR$/llll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new1.py" beforeDir="false" afterPath="$PROJECT_DIR$/new1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newte.py" beforeDir="false" afterPath="$PROJECT_DIR$/newte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/newtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spiders/ExportIndia.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ExportIndia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sskkss.py" beforeDir="false" afterPath="$PROJECT_DIR$/sskkss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sssskk.py" beforeDir="false" afterPath="$PROJECT_DIR$/sssskk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test222.py" beforeDir="false" afterPath="$PROJECT_DIR$/test222.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,6 +333,11 @@
           <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
           <line>1935</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gettrademail/views.py</url>
+          <line>979</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

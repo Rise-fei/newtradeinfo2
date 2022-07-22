@@ -40,7 +40,7 @@ url = "http://www.google.com/search?q={}".format("sofa")
 
 response = requests.get(url, headers=headers, proxies=proxies_data2)
 e = etree.HTML(response.text)
-block_list = e.xpath('//div[@class="g"]')
+block_list = e.xpath("//div[contains(@class, 'g')]")
 print(len(block_list))
 if not block_list:
 	print("1236549790000")
@@ -51,7 +51,7 @@ if not block_list:
 #     # response = requests.get(url, headers={"User-Agent": i, }, proxies=proxies)
 #     response = requests.get(url, headers=headers, proxies=proxies)
 #     e = etree.HTML(response.text)
-#     block_list = e.xpath('//div[@class="g"]')
+#     block_list = e.xpath("//div[contains(@class, 'g')]")
 #     print(len(block_list))
 #     if not block_list:
 #         print(i)

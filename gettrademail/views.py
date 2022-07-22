@@ -632,11 +632,11 @@ def google(kw, start, kwid):
     # #     f.write(resp.content)
     #
     # e = etree.HTML(resp.text)
-    # block_list = e.xpath('//div[@class="g"]')
+    # block_list = e.xpath("//div[contains(@class, 'g')]")
     # if not block_list:
     #     resp = r.get('http://www.google.com.hk/search?q={}&start={}'.format(kw, start), headers=headers,proxies=proxies_google_search)
     #     e = etree.HTML(resp.text)
-    #     block_list = e.xpath('//div[@class="g"]')
+    #     block_list = e.xpath("//div[contains(@class, 'g')]")
     #     if not block_list:
     #         return []
 
@@ -979,8 +979,8 @@ def google_spider(url):
     for proxies in proxy_list:
         resp = r.get(url, proxies=proxies[0], headers={"User-Agent": random.choice(headers_li), })
         e = etree.HTML(resp.text)
-        block_list = e.xpath('//div[@class="g tF2Cxc" or @class="g"]')
-        # block_list = e.xpath('//div[@class="g"]')
+        block_list = e.xpath("//div[contains(@class, 'g')]")
+        # block_list = e.xpath("//div[contains(@class, 'g')]")
         if block_list:
             # with open('111.html','wb') as f:
             #     f.write(resp.content)
@@ -1119,7 +1119,7 @@ def new_googleinfo(kw, num):
         #     # with open('demo.html', 'wb') as f:
         #     #     f.write(resp.content)
         #     e = etree.HTML(resp.text)
-        #     block_list = e.xpath('//div[@class="g"]')
+        #     block_list = e.xpath("//div[contains(@class, 'g')]")
         #     print(len(block_list))
         #     print('******************************************')
         # else:
@@ -1128,7 +1128,7 @@ def new_googleinfo(kw, num):
         #     print('***************google search proxy*******************')
         #     resp = r.get(url, headers={"User-Agent": random.choice(headers_li), }, proxies=proxies_google_search)
         #     e = etree.HTML(resp.text)
-        #     block_list = e.xpath('//div[@class="g"]')
+        #     block_list = e.xpath("//div[contains(@class, 'g')]")
         #     print(len(block_list))
         #     print('******************************************')
         res_list = []
@@ -1495,8 +1495,8 @@ def googlemail(kw):
         for proxies in proxy_list:
             resp = r.get(searchurl, proxies=proxies[0], headers={"User-Agent": random.choice(headers_li), })
             e = etree.HTML(resp.text)
-            block_list = e.xpath('//div[@class="g"]')
-            # block_list = e.xpath('//div[@class="g"]')
+            block_list = e.xpath("//div[contains(@class, 'g')]")
+            # block_list = e.xpath("//div[contains(@class, 'g')]")
             if block_list:
                 # with open('111.html','wb') as f:
                 #     f.write(resp.content)
@@ -1508,23 +1508,23 @@ def googlemail(kw):
 
         # resp = r.get(searchurl, proxies=proxies_data1, headers={"User-Agent": random.choice(headers_li), })
         # e = etree.HTML(resp.text)
-        # block_list = e.xpath('//div[@class="g"]')
+        # block_list = e.xpath("//div[contains(@class, 'g')]")
         # print('*-'*50)
         # if not block_list:
         #     print('数据中心代理1失败')
         #     resp = r.get(searchurl, proxies=proxies_data2, headers={"User-Agent": random.choice(headers_li), })
         #     e = etree.HTML(resp.text)
-        #     block_list = e.xpath('//div[@class="g"]')
+        #     block_list = e.xpath("//div[contains(@class, 'g')]")
         #     if not block_list:
         #         print('数据中心代理2失败')
         #         resp = r.get(searchurl, proxies=proxies_home,headers={"User-Agent": random.choice(headers_li),})
         #         e = etree.HTML(resp.text)
-        #         block_list = e.xpath('//div[@class="g"]')
+        #         block_list = e.xpath("//div[contains(@class, 'g')]")
         #         if not block_list:
         #             print("住宅失败")
         #             resp = r.get(searchurl, proxies=proxies_google_search, headers={"User-Agent": random.choice(headers_li),})
         #             e = etree.HTML(resp.text)
-        #             block_list = e.xpath('//div[@class="g"]')
+        #             block_list = e.xpath("//div[contains(@class, 'g')]")
         #             if not block_list:
         #                 print('搜索引擎失败')
         #                 break
@@ -1642,11 +1642,11 @@ def googlemail2(kw):
 
         resp = r.get(searchurl, proxies=proxies_home, headers=headers)
         e = etree.HTML(resp.text)
-        block_list = e.xpath('//div[@class="g"]')
+        block_list = e.xpath("//div[contains(@class, 'g')]")
         if not block_list:
             resp = r.get(searchurl, proxies=proxies_google_search, headers=headers)
             e = etree.HTML(resp.text)
-            block_list = e.xpath('//div[@class="g"]')
+            block_list = e.xpath("//div[contains(@class, 'g')]")
             if not block_list:
                 break
         # resp = r.get(searchurl, proxies={})

@@ -403,7 +403,7 @@ def get_website_from_google_search(company, headers):
     url = "http://www.google.com/search?q={}".format(company)
     response = requests.get(url, headers=total_headers, proxies=proxies)
     e = etree.HTML(response.text)
-    block_list = e.xpath('//div[@class="g"]')
+    block_list = e.xpath("//div[contains(@class, 'g')]")
     print(len(block_list))
     if not block_list:
         return ""
@@ -430,12 +430,12 @@ def get_website_from_google_search_thread(company, addr, data_list, headers):
     # response = requests.get(url,headers=headers,proxies=proxies)
     response = requests.get(url, headers=total_headers, proxies=proxies_home)
     e = etree.HTML(response.text)
-    block_list = e.xpath('//div[@class="g"]')
+    block_list = e.xpath("//div[contains(@class, 'g')]")
     print(len(block_list))
     if not block_list:
         response = requests.get(url, headers=total_headers, proxies=proxies_google_search)
         e = etree.HTML(response.text)
-        block_list = e.xpath('//div[@class="g"]')
+        block_list = e.xpath("//div[contains(@class, 'g')]")
         print(len(block_list))
         if not block_list:
             return ""
@@ -488,7 +488,7 @@ def search_website_by_google(company, proxies):
     with open('demo_google.html', 'wb') as f:
         f.write(response.content)
     e = etree.HTML(response.text)
-    hrefs = e.xpath('//div[@class="g"][1]//div/div/a/@href')
+    hrefs = e.xpath('//div[contains(@class, "g")][1]//div/div/a/@href')
     if hrefs:
         return hrefs[0]
     else:

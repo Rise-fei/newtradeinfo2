@@ -13,7 +13,7 @@ ret = requests.get(url,proxies=proxies)
 with open('google444.html', 'wb') as f:
     f.write(ret.content)
 e = etree.HTML(ret.text)
-block_list = e.xpath('//div[@class="g"]')
+block_list = e.xpath("//div[contains(@class, 'g')]")
 print(len(block_list))
 res_list = []
 for block in block_list[0:5]:
