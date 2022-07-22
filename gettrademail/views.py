@@ -979,6 +979,8 @@ def google_spider(url):
     for proxies in proxy_list:
         # resp = r.get(url, proxies=proxies[0], headers={"User-Agent": random.choice(headers_li), })
         resp = r.get(url, proxies={}, headers={"User-Agent": random.choice(headers_li), })
+        with open("a.html", 'wb') as f:
+            f.write(resp.content)
         e = etree.HTML(resp.text)
         block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
         # block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
@@ -1096,11 +1098,11 @@ def new_googleinfo(kw, num):
     index = math.ceil(num / 3)
     c_code = country_code[index-1]
     if num % 3 == 2:
-        url = 'http://{}/search?q={}&start=100&num=100&cr=country{}'.format(c_engine,kw,c_code)
+        url = 'http://{}/search?q={}&start=0&num=100&cr=country{}'.format(c_engine,kw,c_code)
     elif num % 3 == 1:
         url = 'http://{}/search?q={}&start=0&num=100&cr=country{}'.format(c_engine, kw, c_code)
     else:
-        url = 'http://{}/search?q={}&start=200&num=100&cr=country{}'.format(c_engine,kw,c_code)
+        url = 'http://{}/search?q={}&start=0&num=100&cr=country{}'.format(c_engine,kw,c_code)
     try:
         # url = 'http://{}/search?q={}&start=0&num=100&cr=country{}'.format(c_engine,kw,c_code)
         # -----------------------------------------------
