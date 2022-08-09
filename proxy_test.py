@@ -26,7 +26,7 @@ response = requests.get(url, headers={"User-Agent": headers_li[0], }, proxies=pr
 with open('proxy_test.html','wb') as f:
     f.write(response.content)
 e = etree.HTML(response.text)
-block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
+block_list = e.xpath("//div[@class='g Ww4FFb vt6azd tF2Cxc']")
 print(len(block_list))
 if not block_list:
     print(1)

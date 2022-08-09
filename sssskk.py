@@ -41,7 +41,7 @@ for i in headers_li:
     response = requests.get(url, headers={"User-Agent": i, }, proxies=proxies)
 
     e = etree.HTML(response.text)
-    block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
+    block_list = e.xpath("//div[@class='g Ww4FFb vt6azd tF2Cxc']")
     print(len(block_list))
     if not block_list:
         print(i)

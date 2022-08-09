@@ -26,12 +26,12 @@ while mailstart <= 20:
     }
     resp = r.get(searchurl, proxies=proxies_home, headers=headers)
     e = etree.HTML(resp.text)
-    block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
+    block_list = e.xpath("//div[@class='g Ww4FFb vt6azd tF2Cxc']")
     if not block_list:
         print("11111111111 is not  good!!")
         resp = r.get(searchurl, proxies=proxies_google_search, headers=headers)
         e = etree.HTML(resp.text)
-        block_list = e.xpath("//div[@class='g Ww4FFb tF2Cxc']")
+        block_list = e.xpath("//div[@class='g Ww4FFb vt6azd tF2Cxc']")
         print((block_list))
         if not block_list:
             break
